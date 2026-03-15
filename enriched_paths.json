@@ -397,7 +397,363 @@
           "description": "Microsoft Fabric Real-Time Intelligence transforms industrial operations through Real-Time Dashboard, Data Activator, agentic AI, and ART enablement. Organizations shift from reactive firefighting to ..."
         }
       ],
-      "session_count": 24
+      "session_count": 24,
+      "alt_sessions": [
+        {
+          "title": "Modern Data Warehousing in Microsoft Fabric",
+          "date": "16 mars",
+          "day": "Lundi 16 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Data Warehousing",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1020569",
+          "speakers": [
+            "Kristyna Ferris",
+            "Chris Hyde"
+          ],
+          "description": "Learn how to design and manage data warehouses in Microsoft Fabric by exploring proven patterns, practical techniques, and common pitfalls to avoid. Topics include dimensional modeling, data warehousi..."
+        },
+        {
+          "title": "Architecting Data Warehouse Medallion Architecture: From Ingestion to Security at Lightning Speed",
+          "date": "17 mars",
+          "day": "Mardi 17 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Data Warehousing, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1037519",
+          "speakers": [
+            "Freddie Santos",
+            "Venkata Satya Pradeep Srikakolapu",
+            "Bradley Schacht"
+          ],
+          "description": "Building a high-performing, secure, and future-ready data warehouse requires more than just loading data—it demands a well-structured architecture that balances speed, governance, and scalability. In ..."
+        },
+        {
+          "title": "KEYNOTE: Unifying the Data Estate for the next AI Frontier",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "8:45AM–11:45AM",
+          "track": "No Track",
+          "level": "",
+          "type": "KEYNOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1135450",
+          "speakers": [
+            "Arun Ulag",
+            "Amir Netz",
+            "Shireesh Thota"
+          ],
+          "description": "As organizations race to deploy generative and agentic AI, the biggest challenge they face is not models, it’s their data estate. Join Microsoft engineering leadership to learn how Microsoft’s databas..."
+        },
+        {
+          "title": "Vortex: AI-Powered Migration to Power BI / Microsoft Fabric Made Simple",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "12:40PM–1:00PM",
+          "track": "Power BI",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081529",
+          "speakers": [
+            "Nathan Hombroek",
+            "Andrew Beier"
+          ],
+          "description": "Legacy platforms create data silos blocking innovation. Manual migrations take 12+ months with 83% failing. See how AI automation transforms this: smart rationalization prioritizes assets, automated c..."
+        },
+        {
+          "title": "Automate Decision Workflows in Microsoft Fabric",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:10PM–1:30PM",
+          "track": "SQL in Fabric, Power BI",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1100054",
+          "speakers": [
+            "Kumar Thangamuthu"
+          ],
+          "description": "Organizations must act on data fast—but speed without governance creates risk. SAS® Decision Builder on Microsoft Fabric automates governed decision workflows, uniting business rules, analytics, Pytho..."
+        },
+        {
+          "title": "CORENOTE: Fabric Data Factory: What's New and Roadmap",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:45PM–2:45PM",
+          "track": "Data Integration",
+          "level": "100",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1019145",
+          "speakers": [
+            "Wee Hyong Tok",
+            "Faisal Mohamood"
+          ],
+          "description": "Are you looking at how you can get started with Fabric Data Factory? In this session, you will learn how Fabric Data Factory is empowering developers to build data integration solutions. This session ..."
+        },
+        {
+          "title": "CORENOTE: The Fabric Data Warehouse Future-Proof Advantage",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "3:05PM–4:05PM",
+          "track": "Data Warehousing, Data Integration",
+          "level": "100",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1065098",
+          "speakers": [
+            "Tino Tereshko"
+          ],
+          "description": "Fabric Data Warehouse has been built from the ground up in 2020s, inspired by industry state-of-the-art. In this session we unveil new features designed to make it easier to manage and get the most ou..."
+        },
+        {
+          "title": "CORENOTE: Fabric Data Engineering Roadmap",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "4:25PM–5:25PM",
+          "track": "Data Engineering",
+          "level": "200",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1042381",
+          "speakers": [
+            "Justyna Lucznik"
+          ],
+          "description": "Fabric Data Engineering empowers data engineers to build out a lakehouse architecture and transform their data, at scale, using Spark. Join this session to learn more about the latest updates to Data ..."
+        },
+        {
+          "title": "Enterprise-Grade Migration to Microsoft Fabric: Modernizing Lakehouses, Pipelines, Analytics & AI",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Data Engineering, Data Integration",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080729",
+          "speakers": [
+            "Lalit Goyal",
+            "Tyler Stemm"
+          ],
+          "description": "Microsoft Fabric is rapidly becoming the unified platform of choice for enterprises seeking to modernize data engineering, analytics, and AI. But migration from Synapse, ADF, Snowflake, Databricks, an..."
+        },
+        {
+          "title": "The Fabric Effect at CDW: Built by the Business, Supercharged by IT",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Power BI, Real-Time Intelligence",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1104230",
+          "speakers": [
+            "Mwazanji Sakala",
+            "Christopher Marcolis"
+          ],
+          "description": "See how CDW brought business and IT together to build something bigger. Christopher shows how he used Fabric to turn scattered data into a single operational portal that runs the business. Julie adds ..."
+        },
+        {
+          "title": "Fabric IQ: Unlock Enterprise AI with a Unified Semantic Layer",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Real-Time Intelligence, Fabric IQ, Real-Time Intelligence",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1094675",
+          "speakers": [
+            "Chafia Aouissi",
+            "Adam Lash"
+          ],
+          "description": "Without shared business definitions, AI agents give inconsistent answers and your teams waste time reconciling conflicting data. Fabric IQ creates a governed, shared semantic foundation that models yo..."
+        },
+        {
+          "title": "Adapting to Fabric Spark: A SQL Server Practitioner’s Path Forward",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Data Engineering, Data Warehousing",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080695",
+          "speakers": [
+            "Christian Henrik Reich"
+          ],
+          "description": "This workshop is for SQL Server practitioners, used to reading query plans and caring about stats, stepping into Fabric. It covers Lakehouses and Spark, showing how your skills still apply in:\n\n* Unde..."
+        },
+        {
+          "title": "Where Data Meets Opportunity: Drive Business Value with Location Insights",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Integration, Data Science",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081475",
+          "speakers": [
+            "Sean McGinnis"
+          ],
+          "description": "Join Esri to see how location intelligence can revolutionize your data strategy and give your organization a competitive edge. Esri's ArcGIS technology brings interactive mapping and advanced location..."
+        },
+        {
+          "title": "How Impetus LeapLogic Automates the Move from Legacy Systems to Microsoft Fabric",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:30PM–1:50PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1103985",
+          "speakers": [
+            "Michael Lass"
+          ],
+          "description": "Discover how Impetus LeapLogic helps teams embrace Microsoft Fabric’s unified, AI-driven architecture with speed and confidence. Join Impetus session to see up to 95% automated conversion of SQL, ETL,..."
+        },
+        {
+          "title": "Connect Your Data with Graph: Why Relationships Matter for AI",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Real-Time Intelligence, Fabric IQ, Data Engineering",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1094315",
+          "speakers": [
+            "Igal Amster",
+            "Justin Fine"
+          ],
+          "description": "AI makes poor business decisions when it can't see how things connect - customers to orders, assets to events, signals to root causes. Graph captures these relationships and lets you explore them with..."
+        },
+        {
+          "title": "Autonomous AI Agents in Production: Komatsu with CluedIn, Fabric & Purview",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "3:20PM–3:40PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1111812",
+          "speakers": [
+            "Tim Ward"
+          ],
+          "description": "This session presents Komatsu’s production deployment of autonomous AI agents over a governed Microsoft Fabric estate integrated with Purview and CluedIn. We cover the architecture, agent execution mo..."
+        },
+        {
+          "title": "Unlocking T-SQL Surface Area in Microsoft Fabric: Where It Works, Where It Doesn’t and Why",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "4:15PM–5:15PM",
+          "track": "Data Warehousing, SQL in Fabric",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1048408",
+          "speakers": [
+            "Jared Kuehn"
+          ],
+          "description": "Microsoft Fabric relational engines support T-SQL, but not always the same way. Why? This session explains SQL surface area, explores Fabric's engines (warehouses, databases, endpoints, etc.), and sho..."
+        },
+        {
+          "title": "SAP, Oracle, Google BigQuery, Dataverse - Unify the business data estate with OneLake",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Data Integration, OneLake",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1077681",
+          "speakers": [
+            "Wilson Lee",
+            "Matt Hicks"
+          ],
+          "description": "Join us to see how Microsoft Fabric and OneLake unify your business data estate with petabyte-scale data movement and Mirroring. Discover best practices for copying, replicating, and virtualizing data..."
+        },
+        {
+          "title": "From Stalled to Scaled: How Tolmar Built a Trusted Fabric Platform for Agents",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Admin & Governance, OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1126083",
+          "speakers": [
+            "Carl Spitzer",
+            "Jon Steffey"
+          ],
+          "description": "Enterprises are moving quickly toward Copilot and agentic AI, but most struggle to scale beyond pilots because the data foundation isn’t ready. In this session, Adastra and Tolmar share how building a..."
+        },
+        {
+          "title": "A data lake built for scale: a deep dive into OneLake performance, APIs, and diagnostics",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "OneLake, OneLake",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1087718",
+          "speakers": [
+            "Elizabeth Oldag",
+            "Tom Peplow"
+          ],
+          "description": "Join this session to learn how OneLake delivers a unified SaaS data lake for your Fabric tenant, simplifying governance and enabling AI-driven insight. With blob and ADLS-compatible APIs, OneLake inte..."
+        },
+        {
+          "title": "Mastering Fabric Data Engineering Admin and Capacity Management",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "400",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1046776",
+          "speakers": [
+            "Santhosh Kumar Ravindran",
+            "Christopher Finlan"
+          ],
+          "description": "Optimize Microsoft Fabric Data Engineering for production. Learn about governance controls for Notebooks, Lakehouses, and Spark Job Definitions. We'll cover administrative roles, capacity management f..."
+        },
+        {
+          "title": "Linking Enterprise Data Estates to Fabric for OneLake & AI: A Real-World Case Study Featuring Fiserv",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "OneLake, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1131879",
+          "speakers": [
+            "Jake Bengtson",
+            "Ishan Adhikari"
+          ],
+          "description": "A key challenge in getting your data estate ready for using Fabric's unified capabilities is eliminating data silos and complexity. That requires implementing novel design patterns for connecting, cap..."
+        },
+        {
+          "title": "Semantic Link Labs: The Data Detective’s Toolkit",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Power BI, Data Engineering",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1074606",
+          "speakers": [
+            "Jason Romans"
+          ],
+          "description": "Every data detective needs the right toolkit—and Semantic Link Labs delivers. In this demo-heavy session, you’ll see it link Power BI datasets with Python notebooks for deeper diagnostics. Learn to tr..."
+        },
+        {
+          "title": "Automate at Scale with Event-Driven Architectures and Business Events",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "3:15PM–4:15PM",
+          "track": "Real-Time Intelligence",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1065937",
+          "speakers": [
+            "Roberto Cervantes",
+            "Ajeta Singhal"
+          ],
+          "description": "Disconnected systems and manual processes slow your business response time. Event-driven architectures solve this by enabling real-time responsiveness across your organization. Discover how Activator ..."
+        }
+      ],
+      "alt_session_count": 24
     },
     {
       "id": "data-architect",
@@ -773,7 +1129,363 @@
           "description": "What is new with Azure Database for PostgreSQL Mirroring in Fabric? Explore the latest enhancements that simplify data movement and integration. We’ll take a deep dive into the zero-copy, live replica..."
         }
       ],
-      "session_count": 24
+      "session_count": 24,
+      "alt_sessions": [
+        {
+          "title": "Hands-On Fabric Security: Protecting Data, Access, and Compliance",
+          "date": "16 mars",
+          "day": "Lundi 16 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Admin & Governance, Microsoft Purview",
+          "level": "300",
+          "type": "Workshop",
+          "url": "https://fabriccon.com/program/agenda?session=1046169",
+          "speakers": [
+            "Vengatesh Parasuraman",
+            "Amanjeet Singh"
+          ],
+          "description": "This hands-on workshop is designed for data engineers, architects, and security professionals. With a blend of demonstrations, hands-on labs, and real-world scenarios, you’ll leave with a clear unders..."
+        },
+        {
+          "title": "Building your data catalog with Microsoft Purview",
+          "date": "17 mars",
+          "day": "Mardi 17 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Admin & Governance, Microsoft Purview",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1046508",
+          "speakers": [
+            "Darren Portillo",
+            "Shafiq Mannan",
+            "Sri Kutuva"
+          ],
+          "description": "Join us in a hands-on lab to create your data catalog. This lab will include Data Map, Unified Catalog and a lab for Data Security.\n\nCataloging\n1. Ingesting metadata \n2. Curating and creating business..."
+        },
+        {
+          "title": "KEYNOTE: Unifying the Data Estate for the next AI Frontier",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "8:45AM–11:45AM",
+          "track": "No Track",
+          "level": "",
+          "type": "KEYNOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1135450",
+          "speakers": [
+            "Arun Ulag",
+            "Amir Netz",
+            "Shireesh Thota"
+          ],
+          "description": "As organizations race to deploy generative and agentic AI, the biggest challenge they face is not models, it’s their data estate. Join Microsoft engineering leadership to learn how Microsoft’s databas..."
+        },
+        {
+          "title": "AI for BI: A Practical Guide to Avoiding Common Pitfalls",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "12:40PM–1:00PM",
+          "track": "Power BI",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1095397",
+          "speakers": [
+            "Marius Moscovici"
+          ],
+          "description": "Every BI platform now includes AI—from Microsoft Fabric CoPilot to standalone chatbots. Yet without a unified strategy, these tools create fragmented user experiences and governance risks. This sessio..."
+        },
+        {
+          "title": "Agentic way to maximize your Fabric capacity utilization",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:10PM–1:30PM",
+          "track": "Admin & Governance, Real-Time Intelligence",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1101247",
+          "speakers": [
+            "Keshav Polepalle",
+            "Benjamin Ries-Roncalli"
+          ],
+          "description": "Overpaying for Fabric capacity? Discover an agentic workload that continuously right-sizes capacity, detects outlier artifacts, sends intelligent alerts, and surfaces usage trends, transforming capaci..."
+        },
+        {
+          "title": "Guardians of the lake: securing your data with OneLake",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:45PM–2:45PM",
+          "track": "OneLake, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1052966",
+          "speakers": [
+            "Cole Haddock"
+          ],
+          "description": "Discover how Microsoft Fabric’s new OneLake security empowers you to protect sensitive data at scale with role-based access, row and column security, and governance best practices—turning OneLake into..."
+        },
+        {
+          "title": "Materialized Lake Views: Simplifying Your Medallion ETL",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "3:05PM–4:05PM",
+          "track": "Data Engineering, Data Warehousing",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081588",
+          "speakers": [
+            "Justin Cunningham"
+          ],
+          "description": "Materialized lake views turn Spark SQL into auto-orchestrated smart tables in your Fabric lakehouse. In this session, learn how to replace fragile ETL with declarative medallion layers, understand ref..."
+        },
+        {
+          "title": "CORENOTE: Governing your data estate with Microsoft Purview Data Governance",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "4:25PM–5:25PM",
+          "track": "Microsoft Purview",
+          "level": "200",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1072516",
+          "speakers": [
+            "Shafiq Mannan",
+            "Sita Dontharaju"
+          ],
+          "description": "Learn how Microsoft Purview Data Governance empowers users to democratize data with its enterprise catalog. This session will cover: \n\n1. Key Data Governance challenges  \n\n2. How Purview simplifies Da..."
+        },
+        {
+          "title": "Enterprise-Grade Migration to Microsoft Fabric: Modernizing Lakehouses, Pipelines, Analytics & AI",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Data Engineering, Data Integration",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080729",
+          "speakers": [
+            "Lalit Goyal",
+            "Tyler Stemm"
+          ],
+          "description": "Microsoft Fabric is rapidly becoming the unified platform of choice for enterprises seeking to modernize data engineering, analytics, and AI. But migration from Synapse, ADF, Snowflake, Databricks, an..."
+        },
+        {
+          "title": "Fabric Capacity Under Control: Reduced Costs, Less Outages, Better User Experience",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Power BI, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1118796",
+          "speakers": [
+            "Patrick Perrier"
+          ],
+          "description": "Everyone struggles with rising Power BI capacity costs, rogue behaviors, outage risks, and badly designed reports reaching the platform. This session shows how predictive monitoring helps you prevent ..."
+        },
+        {
+          "title": "Best Practices for SQL Database Backup Configuration, Immutability, and Ransomware Protection",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Azure SQL, SQLCON, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1089215",
+          "speakers": [
+            "Dinakar Nethi",
+            "Rajesh Setlem"
+          ],
+          "description": "Learn best practices for Azure SQL Database backup configuration and ransomware protection. Explore PITR and LTR strategies, backup immutability, and deletion safeguards to ensure compliance and resil..."
+        },
+        {
+          "title": "Adapting to Fabric Spark: A SQL Server Practitioner’s Path Forward",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Data Engineering, Data Warehousing",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080695",
+          "speakers": [
+            "Christian Henrik Reich"
+          ],
+          "description": "This workshop is for SQL Server practitioners, used to reading query plans and caring about stats, stepping into Fabric. It covers Lakehouses and Spark, showing how your skills still apply in:\n\n* Unde..."
+        },
+        {
+          "title": "Where Data Meets Opportunity: Drive Business Value with Location Insights",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Integration, Data Science",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081475",
+          "speakers": [
+            "Sean McGinnis"
+          ],
+          "description": "Join Esri to see how location intelligence can revolutionize your data strategy and give your organization a competitive edge. Esri's ArcGIS technology brings interactive mapping and advanced location..."
+        },
+        {
+          "title": "How Impetus LeapLogic Automates the Move from Legacy Systems to Microsoft Fabric",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:30PM–1:50PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1103985",
+          "speakers": [
+            "Michael Lass"
+          ],
+          "description": "Discover how Impetus LeapLogic helps teams embrace Microsoft Fabric’s unified, AI-driven architecture with speed and confidence. Join Impetus session to see up to 95% automated conversion of SQL, ETL,..."
+        },
+        {
+          "title": "Leveraging Governance inside your Microsoft Fabric Tenant and Workspace",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Admin & Governance, Microsoft Purview",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1078194",
+          "speakers": [
+            "Martin Catherall",
+            "Heidi Hasting"
+          ],
+          "description": "Microsoft Fabric's tenant and workspace settings are powerful governance tools often used in isolation. Discover overlooked Microsoft Fabric settings that collectively create a robust governance solut..."
+        },
+        {
+          "title": "Autonomous AI Agents in Production: Komatsu with CluedIn, Fabric & Purview",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "3:20PM–3:40PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1111812",
+          "speakers": [
+            "Tim Ward"
+          ],
+          "description": "This session presents Komatsu’s production deployment of autonomous AI agents over a governed Microsoft Fabric estate integrated with Purview and CluedIn. We cover the architecture, agent execution mo..."
+        },
+        {
+          "title": "From Zero to Launch: Talcott’s New Retail Annuity Business platform powered by Microsoft Fabric",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "4:15PM–5:15PM",
+          "track": "OneLake, Data Engineering",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080828",
+          "speakers": [
+            "Ed Bobrin",
+            "Ashwin Sanal Kumar",
+            "Aravind Viswanathan",
+            "Prasad Waigankar"
+          ],
+          "description": "Join EY’s Global Fabric Tech Hub for a moderated fireside chat with Talcott on how they launched a new retail annuity business on Microsoft Fabric. We’ll unpack the end-to-end journey—why Fabric, how ..."
+        },
+        {
+          "title": "From Fabric to Finance: Building Enterprise-Grade Planning & Forecasting on Microsoft Fabric",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Data Integration, Azure SQL",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1124554",
+          "speakers": [
+            "Alp Akdeniz",
+            "Khaled Ahmed"
+          ],
+          "description": "Microsoft Fabric has fundamentally changed how enterprises store, model, and analyze data — but many organizations still struggle to turn that data into real-time operational and financial decisions.\n..."
+        },
+        {
+          "title": "Building an AI-Ready Data Platform: Data Agents, Ontology, and Governance in Microsoft Fabric",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1120797",
+          "speakers": [
+            "Hukum Chandu Rokkala",
+            "Nir Patel"
+          ],
+          "description": "AI agents and Copilots are only as effective as the data platforms behind them. Learn how to build an AI-ready Frontier Data Platform using Microsoft Fabric, powered by Data Agents, shared ontology, &..."
+        },
+        {
+          "title": "A data lake built for scale: a deep dive into OneLake performance, APIs, and diagnostics",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "OneLake, OneLake",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1087718",
+          "speakers": [
+            "Elizabeth Oldag",
+            "Tom Peplow"
+          ],
+          "description": "Join this session to learn how OneLake delivers a unified SaaS data lake for your Fabric tenant, simplifying governance and enabling AI-driven insight. With blob and ADLS-compatible APIs, OneLake inte..."
+        },
+        {
+          "title": "Empowering Lakehouse Solutions with Fabric Warehouse",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Data Warehousing, Data Engineering",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080692",
+          "speakers": [
+            "Christian Henrik Reich"
+          ],
+          "description": "Microsoft Fabric Lakehouses get lots of attention, yet the Warehouse’s evolution and true potential in a lakehouse solution are often overlooked.\n\nThis session covers:\n* Engine deep dive\n* Performance..."
+        },
+        {
+          "title": "The Hybrid Data Future: When to Persist, When to Let Agents Fetch",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Engineering, OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1135928",
+          "speakers": [
+            "Partha Mishra"
+          ],
+          "description": "The \"persist everything\" era of data architecture is ending. Microsoft Fabric is the first platform that lets organizations make a genuine choice: persist strategically in OneLake, access external dat..."
+        },
+        {
+          "title": "When AI meets your database: Securing sensitive data in Azure SQL in an AI-driven world",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Azure SQL, SQLCON, Azure SQL",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1083498",
+          "speakers": [
+            "Shoham Dasgupta"
+          ],
+          "description": "As AI becomes embedded in every application, protecting sensitive data in Azure SQL is vital. This session explores how to secure sensitive data from AI agents and design a defense-in-depth model usin..."
+        },
+        {
+          "title": "Fabric Sprawl - Techniques to Optimize Your Fabric Capacity",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "3:15PM–4:15PM",
+          "track": "Admin & Governance, Developer Experiences",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1079749",
+          "speakers": [
+            "Curtis Stallings",
+            "Marcus Radue"
+          ],
+          "description": "Learn how to address a sprawling Fabric environment with ungoverned items across multiple workspaces and capacities. Extend FUAM to gain valuable insights that drive decision-making and backlog priori..."
+        }
+      ],
+      "alt_session_count": 24
     },
     {
       "id": "cloud-architect",
@@ -1147,7 +1859,347 @@
           "description": "Learn how to address a sprawling Fabric environment with ungoverned items across multiple workspaces and capacities. Extend FUAM to gain valuable insights that drive decision-making and backlog priori..."
         }
       ],
-      "session_count": 24
+      "session_count": 24,
+      "alt_sessions": [
+        {
+          "title": "Real-Time Intelligence Masterclass with Microsoft Fabric",
+          "date": "16 mars",
+          "day": "Lundi 16 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Real-Time Intelligence",
+          "level": "300",
+          "type": "Masterclass",
+          "url": "https://fabriccon.com/program/agenda?session=1040669",
+          "speakers": [
+            "Frank Geisler",
+            "Johan Ludvig Brattås"
+          ],
+          "description": "Today’s organizations need real-time insights. This hands-on workshop guides data pros in building event-driven solutions with Microsoft Fabric. In a full-day lab, you’ll use Real-Time Intelligence (E..."
+        },
+        {
+          "title": "Deep dive into CI/CD strategies for Microsoft Fabric using Azure DevOps",
+          "date": "17 mars",
+          "day": "Mardi 17 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Developer Experiences",
+          "level": "400",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1046490",
+          "speakers": [
+            "Kev Chant",
+            "John Kerski"
+          ],
+          "description": "Take a deep dive into CI/CD strategies for Microsoft Fabric using Azure DevOps. This session explores Git-integrated deployments, Azure Pipelines, variable management and various tooling's. \n\nWe’ll al..."
+        },
+        {
+          "title": "KEYNOTE: Unifying the Data Estate for the next AI Frontier",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "8:45AM–11:45AM",
+          "track": "No Track",
+          "level": "",
+          "type": "KEYNOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1135450",
+          "speakers": [
+            "Arun Ulag",
+            "Amir Netz",
+            "Shireesh Thota"
+          ],
+          "description": "As organizations race to deploy generative and agentic AI, the biggest challenge they face is not models, it’s their data estate. Join Microsoft engineering leadership to learn how Microsoft’s databas..."
+        },
+        {
+          "title": "How to build a 360-degree view of customers, suppliers, or contacts across OneLake",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "12:40PM–1:00PM",
+          "track": "Power BI, Data Integration",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1079051",
+          "speakers": [
+            "Michael Destein"
+          ],
+          "description": "Learn how to create a 360-degree, contextual view across all your OneLake data in Microsoft Fabric. See how to perform high-quality data matching using Entity Resolution techniques across different en..."
+        },
+        {
+          "title": "Brewing Better Decisions for a Dunkin Donuts Franchisee with Microsoft Fabric",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:10PM–1:30PM",
+          "track": "OneLake, Data Engineering",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1079741",
+          "speakers": [
+            "Dennis Carriere",
+            "Darren Goonawardana"
+          ],
+          "description": "Learn how Bluemont Group transformed Data & AI across 100 Dunkin’ locations by replacing a vendor-controlled data warehouse with a modern, fully owned Microsoft Fabric platform. Learn how Collectiv he..."
+        },
+        {
+          "title": "Guardians of the lake: securing your data with OneLake",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:45PM–2:45PM",
+          "track": "OneLake, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1052966",
+          "speakers": [
+            "Cole Haddock"
+          ],
+          "description": "Discover how Microsoft Fabric’s new OneLake security empowers you to protect sensitive data at scale with role-based access, row and column security, and governance best practices—turning OneLake into..."
+        },
+        {
+          "title": "CORENOTE: OneLake, the unified data lake for the era of AI",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "3:05PM–4:05PM",
+          "track": "OneLake",
+          "level": "200",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1056101",
+          "speakers": [
+            "Josh Caplan",
+            "Dipti Borkar"
+          ],
+          "description": "Microsoft OneLake eliminates data silos with a single intelligent storage system and provides a unified access point for all your data. This session will show you the latest capabilities coming to One..."
+        },
+        {
+          "title": "CI/CD processes in Microsoft Fabric: best practices and latest developments",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "4:25PM–5:25PM",
+          "track": "Developer Experiences, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1048555",
+          "speakers": [
+            "Ali Hamud",
+            "Ted Pattison"
+          ],
+          "description": "Join this session to explore the latest capabilities in Fabric for establishing scalable and resilient release processes. Gain practical insights to help you streamline and optimize your CI/CD process..."
+        },
+        {
+          "title": "AI-Powered CI/CD for Microsoft Fabric: Building Enterprise-Grade Pipelines with GitHub Copilot",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Developer Experiences, Data Engineering",
+          "level": "400",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1073128",
+          "speakers": [
+            "Eugene Paden"
+          ],
+          "description": "Discover how AI transforms Fabric development! Learn our production-proven approach combining GitHub Copilot with Azure DevOps CI/CD for metadata-driven pipelines. We'll showcase automated notebook va..."
+        },
+        {
+          "title": "The Fabric Effect at CDW: Built by the Business, Supercharged by IT",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Power BI, Real-Time Intelligence",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1104230",
+          "speakers": [
+            "Mwazanji Sakala",
+            "Christopher Marcolis"
+          ],
+          "description": "See how CDW brought business and IT together to build something bigger. Christopher shows how he used Fabric to turn scattered data into a single operational portal that runs the business. Julie adds ..."
+        },
+        {
+          "title": "Trusted Analytics: Data Quality in Microsoft Fabric & Purview",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Microsoft Purview, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1079113",
+          "speakers": [
+            "Wolfgang Strasser",
+            "Shafiq Mannan"
+          ],
+          "description": "Unlock next-level data quality with the combined power of Microsoft Purview and Fabric. Discover how Fabric’s built-in governance creates truly trusted data assets, while Purview’s profiling, rules, s..."
+        },
+        {
+          "title": "Mirroring for  SQL Server in Fabric: Inside the Replication Process",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Data Integration, Azure SQL",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1062245",
+          "speakers": [
+            "Meagan Longoria",
+            "Justin Cunningham"
+          ],
+          "description": "Explore how Mirroring for SQL Server in Fabric really works: what happens on the source database, how data lands in OneLake, data retention policies, monitoring and logging, configuration of replicate..."
+        },
+        {
+          "title": "How Impetus LeapLogic Automates the Move from Legacy Systems to Microsoft Fabric",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:30PM–1:50PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1103985",
+          "speakers": [
+            "Michael Lass"
+          ],
+          "description": "Discover how Impetus LeapLogic helps teams embrace Microsoft Fabric’s unified, AI-driven architecture with speed and confidence. Join Impetus session to see up to 95% automated conversion of SQL, ETL,..."
+        },
+        {
+          "title": "SQL Server in Azure Virtual Machine: Configuring for price-performance",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Azure SQL, SQLCON, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1087953",
+          "speakers": [
+            "David Pless"
+          ],
+          "description": "When selecting a virtual machine to host your SQL Server workload in Azure, you need to choose a VM size that provides optimal performance and fits your organization’s budget. \n\nIn this session, we wi..."
+        },
+        {
+          "title": "What Microsoft Fabric Looks Like with End-to-End Automation",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "3:20PM–3:40PM",
+          "track": "Data Engineering, Data Warehousing, Data Integration",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1115223",
+          "speakers": [
+            "Endika Pascual"
+          ],
+          "description": "Production-grade Microsoft Fabric implementations require coordinated ingestion, data refinement, warehouse operations, and governance. This session examines how Data Factory pipelines, OneLake Medall..."
+        },
+        {
+          "title": "Interoperable by design: managing Iceberg and Delta Tables in OneLake",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "4:15PM–5:15PM",
+          "track": "OneLake, OneLake",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1042365",
+          "speakers": [
+            "Kevin Liu",
+            "Matt Hicks"
+          ],
+          "description": "OneLake enables true interoperability, enabling you to write Iceberg and Delta tables once and query them anywhere. Learn how OneLake supports data governance, Spark DML and lifecycle management while..."
+        },
+        {
+          "title": "Hardening Fabric Warehouse Security",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Data Warehousing, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1019005",
+          "speakers": [
+            "Freddie Santos",
+            "Sam Debruyn"
+          ],
+          "description": "Learn how to secure Fabric Data Warehouse from the ground up. This session covers end-to-end practices—from secure connectivity and authentication to auditing, monitoring, and governance—highlighting ..."
+        },
+        {
+          "title": "Building an AI-Ready Data Platform: Data Agents, Ontology, and Governance in Microsoft Fabric",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1120797",
+          "speakers": [
+            "Hukum Chandu Rokkala",
+            "Nir Patel"
+          ],
+          "description": "AI agents and Copilots are only as effective as the data platforms behind them. Learn how to build an AI-ready Frontier Data Platform using Microsoft Fabric, powered by Data Agents, shared ontology, &..."
+        },
+        {
+          "title": "Azure SQL MI Unleashed: Inside the Next‑Gen GP & What’s Coming Next",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Azure SQL, SQLCON, Azure SQL",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1089844",
+          "speakers": [
+            "Vladimir Ivanovic"
+          ],
+          "description": "If you plan to migrate and modernize your SQL workloads in the cloud, Azure SQL Managed Instance (SQL MI) is your best choice - now reimagined for speed, scale, and flexibility. \nIn this session we wi..."
+        },
+        {
+          "title": "Chaos to Clarity: Governance and Adoption Lessons from Rolling Out Power BI and Fabric",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Admin & Governance, Power BI",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1034504",
+          "speakers": [
+            "Chris Aleman"
+          ],
+          "description": "Power BI + Fabric at scale? Chaos looms—fragmented workspaces, messy permissions, frustrated users. Join us to see how we turned disorder into a governance playbook that accelerates adoption. Learn ro..."
+        },
+        {
+          "title": "The Hybrid Data Future: When to Persist, When to Let Agents Fetch",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Engineering, OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1135928",
+          "speakers": [
+            "Partha Mishra"
+          ],
+          "description": "The \"persist everything\" era of data architecture is ending. Microsoft Fabric is the first platform that lets organizations make a genuine choice: persist strategically in OneLake, access external dat..."
+        },
+        {
+          "title": "Herding Fabric Cats: Administration and Governance Guidance",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Admin & Governance, OneLake",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081460",
+          "speakers": [
+            "Jerid Fortney",
+            "John Miner"
+          ],
+          "description": "Fabric governance is challenging: users create workspaces fast, data sprawls, and costs spike. This session will help you \"herd the cats\" using Microsoft's tools.\n\nYou will leave with a practical, bat..."
+        },
+        {
+          "title": "Transforming Industrial Operations with Real-time Intelligence and Agentic AI",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "3:15PM–4:15PM",
+          "track": "Real-Time Intelligence, OneLake",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081139",
+          "speakers": [
+            "Yasaswi Akkaraju",
+            "Stuti Singh"
+          ],
+          "description": "Microsoft Fabric Real-Time Intelligence transforms industrial operations through Real-Time Dashboard, Data Activator, agentic AI, and ART enablement. Organizations shift from reactive firefighting to ..."
+        }
+      ],
+      "alt_session_count": 23
     },
     {
       "id": "bi-analytics",
@@ -1533,7 +2585,360 @@
           "description": "Learn practical strategies for sharing Power BI content across your company. We’ll cover distributing insights through apps (including organizational apps), and how business users can access Power BI ..."
         }
       ],
-      "session_count": 25
+      "session_count": 25,
+      "alt_sessions": [
+        {
+          "title": "Getting Started with Microsoft Fabric and Power BI: A Hands-On Workshop",
+          "date": "16 mars",
+          "day": "Lundi 16 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Data Engineering, Power BI",
+          "level": "100",
+          "type": "Workshop",
+          "url": "https://fabriccon.com/program/agenda?session=1042946",
+          "speakers": [
+            "Stephanie Bruno",
+            "Santhana Lakshmi Ponnurasan"
+          ],
+          "description": "New to Fabric or Power BI? This workshop is the perfect place to start, giving you an end-to-end intro to Fabric and Power BI and equipping you with the skills and confidence to dive deeper into the w..."
+        },
+        {
+          "title": "Power BI Mastery: End-to-End Analytics for Pro Developers",
+          "date": "17 mars",
+          "day": "Mardi 17 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Power BI",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1046398",
+          "speakers": [
+            "Sara Lammini Rodriguez",
+            "Monica Calleja",
+            "Rui Romano"
+          ],
+          "description": "Join this hands-on workshop for Power BI Pro Developers and data practitioners. Gain practical experience across the full development lifecycle using tools like PBIP, TMDL, and PBIR. Learn how Pro Dev..."
+        },
+        {
+          "title": "KEYNOTE: Unifying the Data Estate for the next AI Frontier",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "8:45AM–11:45AM",
+          "track": "No Track",
+          "level": "",
+          "type": "KEYNOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1135450",
+          "speakers": [
+            "Arun Ulag",
+            "Amir Netz",
+            "Shireesh Thota"
+          ],
+          "description": "As organizations race to deploy generative and agentic AI, the biggest challenge they face is not models, it’s their data estate. Join Microsoft engineering leadership to learn how Microsoft’s databas..."
+        },
+        {
+          "title": "AI for BI: A Practical Guide to Avoiding Common Pitfalls",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "12:40PM–1:00PM",
+          "track": "Power BI",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1095397",
+          "speakers": [
+            "Marius Moscovici"
+          ],
+          "description": "Every BI platform now includes AI—from Microsoft Fabric CoPilot to standalone chatbots. Yet without a unified strategy, these tools create fragmented user experiences and governance risks. This sessio..."
+        },
+        {
+          "title": "Agentic way to maximize your Fabric capacity utilization",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:10PM–1:30PM",
+          "track": "Admin & Governance, Real-Time Intelligence",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1101247",
+          "speakers": [
+            "Keshav Polepalle",
+            "Benjamin Ries-Roncalli"
+          ],
+          "description": "Overpaying for Fabric capacity? Discover an agentic workload that continuously right-sizes capacity, detects outlier artifacts, sends intelligent alerts, and surfaces usage trends, transforming capaci..."
+        },
+        {
+          "title": "Dynamics 365 (Dataverse) integration with Fabric, and virtual tables over Fabric tables",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:45PM–2:45PM",
+          "track": "Power Platform, Data Warehousing",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1089017",
+          "speakers": [
+            "Manas Maheshwari",
+            "Jila \"JJ\" Yadav"
+          ],
+          "description": "Leverage first class integration with Dynamics 365 / Dataverse and other business data with Fabric to generate rich insights."
+        },
+        {
+          "title": "CORENOTE: The Fabric Data Warehouse Future-Proof Advantage",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "3:05PM–4:05PM",
+          "track": "Data Warehousing, Data Integration",
+          "level": "100",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1065098",
+          "speakers": [
+            "Tino Tereshko"
+          ],
+          "description": "Fabric Data Warehouse has been built from the ground up in 2020s, inspired by industry state-of-the-art. In this session we unveil new features designed to make it easier to manage and get the most ou..."
+        },
+        {
+          "title": "Getting Started with Dataflow Gen2: Simple, Practical, Real",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "4:25PM–5:25PM",
+          "track": "Data Integration, Power BI",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081425",
+          "speakers": [
+            "Cristian Angyal"
+          ],
+          "description": "Want to get started with Dataflow Gen2 without stress? \nThis session explains what DFG2 is, why it matters, and how it fits into Microsoft Fabric. \nWe’ll build a dataflow from scratch, connect multipl..."
+        },
+        {
+          "title": "AI Answers, Done Right: When to use Power BI Copilot vs. Fabric Data Agents",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Power BI",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1082152",
+          "speakers": [
+            "Sara Vredevoogd",
+            "Carly Newsome"
+          ],
+          "description": "Business users want answers, not plumbing. In this session, we map when to use Power BI Copilot directly versus when Fabric Data Agents shine. We’ll cover the product’s current functionality to help y..."
+        },
+        {
+          "title": "The Fabric Effect at CDW: Built by the Business, Supercharged by IT",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Power BI, Real-Time Intelligence",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1104230",
+          "speakers": [
+            "Mwazanji Sakala",
+            "Christopher Marcolis"
+          ],
+          "description": "See how CDW brought business and IT together to build something bigger. Christopher shows how he used Fabric to turn scattered data into a single operational portal that runs the business. Julie adds ..."
+        },
+        {
+          "title": "Fabric IQ: Unlock Enterprise AI with a Unified Semantic Layer",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Real-Time Intelligence, Fabric IQ, Real-Time Intelligence",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1094675",
+          "speakers": [
+            "Chafia Aouissi",
+            "Adam Lash"
+          ],
+          "description": "Without shared business definitions, AI agents give inconsistent answers and your teams waste time reconciling conflicting data. Fabric IQ creates a governed, shared semantic foundation that models yo..."
+        },
+        {
+          "title": "Real-Time Intelligence Meets Location: How Maps in Microsoft Fabric Transform Your Analytics",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Real-Time Intelligence, Power BI",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080153",
+          "speakers": [
+            "James Dales"
+          ],
+          "description": "Learn how Microsoft Fabric brings real-time and location intelligence together. Stream and transform live data with Real-Time Intelligence, visualize it instantly with Maps in Fabric, and then use Pow..."
+        },
+        {
+          "title": "Where Data Meets Opportunity: Drive Business Value with Location Insights",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Integration, Data Science",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081475",
+          "speakers": [
+            "Sean McGinnis"
+          ],
+          "description": "Join Esri to see how location intelligence can revolutionize your data strategy and give your organization a competitive edge. Esri's ArcGIS technology brings interactive mapping and advanced location..."
+        },
+        {
+          "title": "Enterprise Write-back: Driving Data-Driven Transformation with Power BI",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:30PM–1:50PM",
+          "track": "Power BI",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1124562",
+          "speakers": [
+            "Eric Reyhle"
+          ],
+          "description": "Ready to see how modern planning is being redefined? Acterys showcases how a leading manufacturer moved from fragmented, Excel-based planning to streamlined, data-driven decision-making. Discover how ..."
+        },
+        {
+          "title": "How Health Systems Can Join the EMR Cloud Journey",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Data Warehousing, Power BI",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081186",
+          "speakers": [
+            "Jamie McGlothlin",
+            "Daniella Herskowitz"
+          ],
+          "description": "Major electronic medical records (EMRs) including Epic are transitioning their data offerings to Fabric.    This session will investigate how to integrate this data with client data and platforms.  We..."
+        },
+        {
+          "title": "What Microsoft Fabric Looks Like with End-to-End Automation",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "3:20PM–3:40PM",
+          "track": "Data Engineering, Data Warehousing, Data Integration",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1115223",
+          "speakers": [
+            "Endika Pascual"
+          ],
+          "description": "Production-grade Microsoft Fabric implementations require coordinated ingestion, data refinement, warehouse operations, and governance. This session examines how Data Factory pipelines, OneLake Medall..."
+        },
+        {
+          "title": "Ignite Governance Insights Across Databases, Lakes, and Models",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "4:15PM–5:15PM",
+          "track": "Azure SQL, SQLCON, Data Warehousing",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1072440",
+          "speakers": [
+            "Karen Lopez"
+          ],
+          "description": "Turn data governance into a productivity boost for Azure SQL Database, Fabric SQL Database, and Fabric Data Warehouse architectures and engineering. Gain efficiency and confidence in every deployment...."
+        },
+        {
+          "title": "Intelligent analytics in real-world scenarios",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Power BI, Microsoft Foundry",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1083396",
+          "speakers": [
+            "Monica Calleja",
+            "Sara Lammini Rodriguez"
+          ],
+          "description": "In today’s AI-driven world, the integration of data, analytics tools, and AI agents is more critical than ever. This session focuses on how AI agents, Power BI, and other Fabric capabilities can be in..."
+        },
+        {
+          "title": "From Stalled to Scaled: How Tolmar Built a Trusted Fabric Platform for Agents",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Admin & Governance, OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1126083",
+          "speakers": [
+            "Carl Spitzer",
+            "Jon Steffey"
+          ],
+          "description": "Enterprises are moving quickly toward Copilot and agentic AI, but most struggle to scale beyond pilots because the data foundation isn’t ready. In this session, Adastra and Tolmar share how building a..."
+        },
+        {
+          "title": "Making AI Agents Smarter with Fabric IQ and Foundry IQ",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Microsoft Foundry, Fabric IQ, Power BI",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081123",
+          "speakers": [
+            "Treb Gatte"
+          ],
+          "description": "Connecting AI agents to company data across SharePoint, databases, and documents is complex. Foundry IQ + Fabric IQ provide secure, unified access through one API. Learn to connect agents to multiple ..."
+        },
+        {
+          "title": "Reporting with action: Visualizations with translytical task flows in Power BI and Fabric",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Power BI, SQL in Fabric",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1075109",
+          "speakers": [
+            "Zoe Douglas",
+            "Denyse Niwenshuti"
+          ],
+          "description": "Join this session to learn about translytical task flows combining Power BI reports and Fabric user data functions together for actionable reports with a click of a button. We’ll demo how to set it up..."
+        },
+        {
+          "title": "The Hybrid Data Future: When to Persist, When to Let Agents Fetch",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Engineering, OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1135928",
+          "speakers": [
+            "Partha Mishra"
+          ],
+          "description": "The \"persist everything\" era of data architecture is ending. Microsoft Fabric is the first platform that lets organizations make a genuine choice: persist strategically in OneLake, access external dat..."
+        },
+        {
+          "title": "Build Smarter Analytics Assistants with Fabric Data Agents and Copilot Studio",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Data Science, Power BI",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081577",
+          "speakers": [
+            "Piotr Prussak"
+          ],
+          "description": "Learn how to connect Microsoft Fabric data agents with Copilot Studio to deliver intelligent, conversational analytics. This session covers modeling best practices, schema design, grounded responses, ..."
+        },
+        {
+          "title": "Vibe Coding a Power BI Embedded Portal - From Zero to Hero in 60 Minutes",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "3:15PM–4:15PM",
+          "track": "Power BI, Developer Experiences",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080837",
+          "speakers": [
+            "Peer Grønnerup"
+          ],
+          "description": "Power BI Embedded isn’t just for developers. \n\nIn this fast-paced vibe-coding session, we’ll demystify it by building a real custom portal in 60 minutes, using AI to speed things up. \n\nSee how to set ..."
+        }
+      ],
+      "alt_session_count": 24
     },
     {
       "id": "data-science-ai",
@@ -1914,7 +3319,363 @@
           "description": "Discover how Microsoft Fabric enables a modern Machine Learning Operation for Traditional ML. Attendees will observe a practical approach to building ML pipelines using Notebooks, Lakehouses, Pipeline..."
         }
       ],
-      "session_count": 25
+      "session_count": 25,
+      "alt_sessions": [
+        {
+          "title": "A practical guide to building and deploying Fabric Data Agents for deeper insights",
+          "date": "16 mars",
+          "day": "Lundi 16 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Data Science",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1042362",
+          "speakers": [
+            "Shreyas Canchi Radhakrishna",
+            "Mayur Jain",
+            "Scott Votaw"
+          ],
+          "description": "AI agents are becoming integral to business workflows, enabling users of all technical levels to explore and understand data more intuitively, and Microsoft Fabric’s Data Agents are at the forefront o..."
+        },
+        {
+          "title": "From Vectors to Agents: Building AI-Powered Solutions with Microsoft SQL",
+          "date": "17 mars",
+          "day": "Mardi 17 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "SQL Server, SQLCON",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080345",
+          "speakers": [
+            "Davide Mauri",
+            "Aaron Saidi"
+          ],
+          "description": "Unlock the power of your own data by combining Microsoft SQL (SQL Server 2025, Azure SQL, or SQL Database in Microsoft Fabric) with cutting-edge AI techniques. In this workshop, you’ll learn about emb..."
+        },
+        {
+          "title": "KEYNOTE: Unifying the Data Estate for the next AI Frontier",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "8:45AM–11:45AM",
+          "track": "No Track",
+          "level": "",
+          "type": "KEYNOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1135450",
+          "speakers": [
+            "Arun Ulag",
+            "Amir Netz",
+            "Shireesh Thota"
+          ],
+          "description": "As organizations race to deploy generative and agentic AI, the biggest challenge they face is not models, it’s their data estate. Join Microsoft engineering leadership to learn how Microsoft’s databas..."
+        },
+        {
+          "title": "AI for BI: A Practical Guide to Avoiding Common Pitfalls",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "12:40PM–1:00PM",
+          "track": "Power BI",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1095397",
+          "speakers": [
+            "Marius Moscovici"
+          ],
+          "description": "Every BI platform now includes AI—from Microsoft Fabric CoPilot to standalone chatbots. Yet without a unified strategy, these tools create fragmented user experiences and governance risks. This sessio..."
+        },
+        {
+          "title": "Automate Decision Workflows in Microsoft Fabric",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:10PM–1:30PM",
+          "track": "SQL in Fabric, Power BI",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1100054",
+          "speakers": [
+            "Kumar Thangamuthu"
+          ],
+          "description": "Organizations must act on data fast—but speed without governance creates risk. SAS® Decision Builder on Microsoft Fabric automates governed decision workflows, uniting business rules, analytics, Pytho..."
+        },
+        {
+          "title": "Touch your data with Real Time Intelligence",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:45PM–2:45PM",
+          "track": "Real-Time Intelligence, Data Science",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081505",
+          "speakers": [
+            "Dominick Raimato"
+          ],
+          "description": "Event driven data architectures are an easy way to drive quick insights and value.  Enter real time intelligence within Fabric.  This session will allow you to have a tangible experience by manipulati..."
+        },
+        {
+          "title": "Agentic AI for data engineering and vibe analytics on MS Fabric",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "3:05PM–4:05PM",
+          "track": "Microsoft Foundry, Microsoft Foundry",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1084297",
+          "speakers": [
+            "Santosh Tiwari"
+          ],
+          "description": "This session introduces how Agentic AI combined with MS Fabric transforms data engineering and vibe analytics. How autonomous, goal-driven agents automate ingestion, transformation, and data quality w..."
+        },
+        {
+          "title": "Transform Your Business with Fabric Real-Time Intelligence",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "4:25PM–5:25PM",
+          "track": "Real-Time Intelligence",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1072716",
+          "speakers": [
+            "Devang Shah",
+            "Kati Iceva"
+          ],
+          "description": "Real Time Intelligence helps businesses transform with real-time insights, analytics and actions built for the era of AI. This session will cover key features, capabilities, and the impact it has on o..."
+        },
+        {
+          "title": "Accelerating Data and AI with Azure Databricks",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Data Engineering, Data Integration, Data Science, Data Warehousing, Power BI, Azure Databricks",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1127137",
+          "speakers": [
+            "Robert Saxby",
+            "Surya Sai Turaga"
+          ],
+          "description": "Get the most out of your investments with Azure Databricks. Learn how the deep integration in the Azure ecosystem accelerates workloads, optimizes performance, and maximizes value. See how the Databri..."
+        },
+        {
+          "title": "Transform your data platform into an AI-ready foundation for growth",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Data Engineering, Data Integration",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081324",
+          "speakers": [
+            "Ravi Gunturu",
+            "Rahul Athalye"
+          ],
+          "description": "Modernize your end-to-end data platform to Fabric and unlock AI/ML enabled potential in workloads, analytics, and collaboration.\nDuring this session, we will focus on agentic AI methods of automation ..."
+        },
+        {
+          "title": "Unity in Action – Building Enterprise AI on a Unified Semantic Foundation",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Data Engineering, Fabric IQ, Real-Time Intelligence",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1102714",
+          "speakers": [
+            "Subbu Muthukrishnan",
+            "Chandler Stevens"
+          ],
+          "description": "Enterprise AI requires unified semantic foundations where governance and intelligence flow seamlessly. Learn to architect data platform that use Ontology as your semantic backbone, Data Agents for ins..."
+        },
+        {
+          "title": "Microsoft Fabric AI: Copilots, Data Agents & Real‑World Extensions",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Data Science, Microsoft Foundry",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1020444",
+          "speakers": [
+            "Bradley Ball"
+          ],
+          "description": "Build RAG patterns in minutes. We’ll show data agents, prompts, complex queries, and connecting to Microsoft Fabric data. Explore Copilots across services—what they are, how they differ—extend data ag..."
+        },
+        {
+          "title": "Building a Zero-Copy Enterprise Data Platform for CITGO",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1111226",
+          "speakers": [
+            "Hemanth Gaddale",
+            "Siva Pamarti"
+          ],
+          "description": "Can enterprises enable advanced analytics on a self-servicing platform without compromising governance? In this session, we’ll share how LevelShift redesigned CITGO’s data platform on Microsoft Fabric..."
+        },
+        {
+          "title": "How Impetus LeapLogic Automates the Move from Legacy Systems to Microsoft Fabric",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:30PM–1:50PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1103985",
+          "speakers": [
+            "Michael Lass"
+          ],
+          "description": "Discover how Impetus LeapLogic helps teams embrace Microsoft Fabric’s unified, AI-driven architecture with speed and confidence. Join Impetus session to see up to 95% automated conversion of SQL, ETL,..."
+        },
+        {
+          "title": "Connect Your Data with Graph: Why Relationships Matter for AI",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Real-Time Intelligence, Fabric IQ, Data Engineering",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1094315",
+          "speakers": [
+            "Igal Amster",
+            "Justin Fine"
+          ],
+          "description": "AI makes poor business decisions when it can't see how things connect - customers to orders, assets to events, signals to root causes. Graph captures these relationships and lets you explore them with..."
+        },
+        {
+          "title": "Scaling Fabric Write Back for Real-Time Collaboration & Data Enrichment",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "3:20PM–3:40PM",
+          "track": "Power BI, SQL in Fabric, Power Platform",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1121672",
+          "speakers": [
+            "Marija Zutic",
+            "Josh Warbington"
+          ],
+          "description": "Fabric's native writeback excels at single-record forms, but teams often need to enrich multiple data points, add context across records, or collaborate in real-time. Learn how to extend Fabric's writ..."
+        },
+        {
+          "title": "Building an AutoML Pipeline for Vector Data in Azure SQL",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "4:15PM–5:15PM",
+          "track": "Azure SQL, SQLCON, Microsoft Foundry",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080694",
+          "speakers": [
+            "Omer Colakoglu"
+          ],
+          "description": "This session demonstrates how to build an AutoML-driven pipeline inside Azure SQL to process and optimize vector data. Learn how to automatically profile datasets, select the best embedding model and ..."
+        },
+        {
+          "title": "Intelligent analytics in real-world scenarios",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Power BI, Microsoft Foundry",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1083396",
+          "speakers": [
+            "Monica Calleja",
+            "Sara Lammini Rodriguez"
+          ],
+          "description": "In today’s AI-driven world, the integration of data, analytics tools, and AI agents is more critical than ever. This session focuses on how AI agents, Power BI, and other Fabric capabilities can be in..."
+        },
+        {
+          "title": "From Stalled to Scaled: How Tolmar Built a Trusted Fabric Platform for Agents",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Admin & Governance, OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1126083",
+          "speakers": [
+            "Carl Spitzer",
+            "Jon Steffey"
+          ],
+          "description": "Enterprises are moving quickly toward Copilot and agentic AI, but most struggle to scale beyond pilots because the data foundation isn’t ready. In this session, Adastra and Tolmar share how building a..."
+        },
+        {
+          "title": "The Hidden Strategic Leverage in Modern Data & AI Architectures",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Real-Time Intelligence, Data Science",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1128965",
+          "speakers": [
+            "Vignesh Ganesan"
+          ],
+          "description": "Most enterprises have adopted open data and AI architectures, yet continue to operate as if they are vendor-locked. This session highlights the hidden strategic and financial leverage embedded in mode..."
+        },
+        {
+          "title": "Autonomous Fabric: Agentic Data Quality Using Fabric Data Agents",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Data Science, Data Integration",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1079380",
+          "speakers": [
+            "David Mills"
+          ],
+          "description": "Data Quality issues drain engineering time and weaken business confidence in data platforms.\n\nWhat if Fabric Data Agents could detect DQ issues autonomously, analyse their root cause, and guide engine..."
+        },
+        {
+          "title": "Linking Enterprise Data Estates to Fabric for OneLake & AI: A Real-World Case Study Featuring Fiserv",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "OneLake, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1131879",
+          "speakers": [
+            "Jake Bengtson",
+            "Ishan Adhikari"
+          ],
+          "description": "A key challenge in getting your data estate ready for using Fabric's unified capabilities is eliminating data silos and complexity. That requires implementing novel design patterns for connecting, cap..."
+        },
+        {
+          "title": "Beyond Monitoring: AI-Driven Spark Optimization in Microsoft Fabric",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Data Engineering, Data Science",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1087887",
+          "speakers": [
+            "Anu Venkataraman",
+            "Virginia Roman"
+          ],
+          "description": "Join this demo by Microsoft AI and Spark experts to see how Fabric takes Spark observability to the next level! Learn how to stream Spark logs to Eventhouse using Diagnostic Emitter. See Fabric AI/ML ..."
+        },
+        {
+          "title": "Transforming Industrial Operations with Real-time Intelligence and Agentic AI",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "3:15PM–4:15PM",
+          "track": "Real-Time Intelligence, OneLake",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081139",
+          "speakers": [
+            "Yasaswi Akkaraju",
+            "Stuti Singh"
+          ],
+          "description": "Microsoft Fabric Real-Time Intelligence transforms industrial operations through Real-Time Dashboard, Data Activator, agentic AI, and ART enablement. Organizations shift from reactive firefighting to ..."
+        }
+      ],
+      "alt_session_count": 24
     },
     {
       "id": "sales-manager",
@@ -2301,7 +4062,361 @@
           "description": "Learn practical strategies for sharing Power BI content across your company. We’ll cover distributing insights through apps (including organizational apps), and how business users can access Power BI ..."
         }
       ],
-      "session_count": 25
+      "session_count": 25,
+      "alt_sessions": [
+        {
+          "title": "Getting Started with Microsoft Fabric and Power BI: A Hands-On Workshop",
+          "date": "16 mars",
+          "day": "Lundi 16 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Data Engineering, Power BI",
+          "level": "100",
+          "type": "Workshop",
+          "url": "https://fabriccon.com/program/agenda?session=1042946",
+          "speakers": [
+            "Stephanie Bruno",
+            "Santhana Lakshmi Ponnurasan"
+          ],
+          "description": "New to Fabric or Power BI? This workshop is the perfect place to start, giving you an end-to-end intro to Fabric and Power BI and equipping you with the skills and confidence to dive deeper into the w..."
+        },
+        {
+          "title": "Power BI Mastery: End-to-End Analytics for Pro Developers",
+          "date": "17 mars",
+          "day": "Mardi 17 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Power BI",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1046398",
+          "speakers": [
+            "Sara Lammini Rodriguez",
+            "Monica Calleja",
+            "Rui Romano"
+          ],
+          "description": "Join this hands-on workshop for Power BI Pro Developers and data practitioners. Gain practical experience across the full development lifecycle using tools like PBIP, TMDL, and PBIR. Learn how Pro Dev..."
+        },
+        {
+          "title": "KEYNOTE: Unifying the Data Estate for the next AI Frontier",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "8:45AM–11:45AM",
+          "track": "No Track",
+          "level": "",
+          "type": "KEYNOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1135450",
+          "speakers": [
+            "Arun Ulag",
+            "Amir Netz",
+            "Shireesh Thota"
+          ],
+          "description": "As organizations race to deploy generative and agentic AI, the biggest challenge they face is not models, it’s their data estate. Join Microsoft engineering leadership to learn how Microsoft’s databas..."
+        },
+        {
+          "title": "AI for BI: A Practical Guide to Avoiding Common Pitfalls",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "12:40PM–1:00PM",
+          "track": "Power BI",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1095397",
+          "speakers": [
+            "Marius Moscovici"
+          ],
+          "description": "Every BI platform now includes AI—from Microsoft Fabric CoPilot to standalone chatbots. Yet without a unified strategy, these tools create fragmented user experiences and governance risks. This sessio..."
+        },
+        {
+          "title": "Brewing Better Decisions for a Dunkin Donuts Franchisee with Microsoft Fabric",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:10PM–1:30PM",
+          "track": "OneLake, Data Engineering",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1079741",
+          "speakers": [
+            "Dennis Carriere",
+            "Darren Goonawardana"
+          ],
+          "description": "Learn how Bluemont Group transformed Data & AI across 100 Dunkin’ locations by replacing a vendor-controlled data warehouse with a modern, fully owned Microsoft Fabric platform. Learn how Collectiv he..."
+        },
+        {
+          "title": "Designing for the Right User: Why Personas Are the Secret to Better Power BI Reports",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:45PM–2:45PM",
+          "track": "Power BI",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081465",
+          "speakers": [
+            "Elena Drakulevska"
+          ],
+          "description": "Reports don’t fail because you’re bad at design. They fail because they’re built for the wrong user. Learn how to identify the real “characters” behind your Power BI reports, from the big-picture stra..."
+        },
+        {
+          "title": "CORENOTE: Trusted AI starts with Fabric: unified real-time intelligence and IQ context",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "3:05PM–4:05PM",
+          "track": "Real-Time Intelligence, Fabric IQ, Microsoft Foundry",
+          "level": "100",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1072718",
+          "speakers": [
+            "Yitzhak Kesselman",
+            "Tessa Kloster"
+          ],
+          "description": "Fabric unifies your data estate in OneLake, converges your real-time and analytical workloads into a single data platform, and layers a semantic foundation with ontologies to form a unified intelligen..."
+        },
+        {
+          "title": "CORENOTE: Fabric Data Engineering Roadmap",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "4:25PM–5:25PM",
+          "track": "Data Engineering",
+          "level": "200",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1042381",
+          "speakers": [
+            "Justyna Lucznik"
+          ],
+          "description": "Fabric Data Engineering empowers data engineers to build out a lakehouse architecture and transform their data, at scale, using Spark. Join this session to learn more about the latest updates to Data ..."
+        },
+        {
+          "title": "Get Proactive: Building Autonomous Operations Agents with Fabric IQ",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Real-Time Intelligence, Fabric IQ, Data Integration",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080869",
+          "speakers": [
+            "Greg Nash"
+          ],
+          "description": "Traditional monitoring and alerting is reactive and teams spend valuable time manually analyzing data and coordinating responses. In this session, we will learn how to configure operations agents to a..."
+        },
+        {
+          "title": "Fabric Capacity Under Control: Reduced Costs, Less Outages, Better User Experience",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Power BI, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1118796",
+          "speakers": [
+            "Patrick Perrier"
+          ],
+          "description": "Everyone struggles with rising Power BI capacity costs, rogue behaviors, outage risks, and badly designed reports reaching the platform. This session shows how predictive monitoring helps you prevent ..."
+        },
+        {
+          "title": "Fabric IQ: Unlock Enterprise AI with a Unified Semantic Layer",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Real-Time Intelligence, Fabric IQ, Real-Time Intelligence",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1094675",
+          "speakers": [
+            "Chafia Aouissi",
+            "Adam Lash"
+          ],
+          "description": "Without shared business definitions, AI agents give inconsistent answers and your teams waste time reconciling conflicting data. Fabric IQ creates a governed, shared semantic foundation that models yo..."
+        },
+        {
+          "title": "Build Your First Digital Employee: A Guide to Operations Agent in Fabric",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Real-Time Intelligence, Fabric IQ, Microsoft Foundry",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080563",
+          "speakers": [
+            "Kati Iceva",
+            "Italo Lima"
+          ],
+          "description": "Manually monitoring pipelines, handling incidents, and executing workflows doesn't scale and it burns out your team. Operations agents in Microsoft Fabric provide true autonomy by handling these tasks..."
+        },
+        {
+          "title": "Building a Zero-Copy Enterprise Data Platform for CITGO",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1111226",
+          "speakers": [
+            "Hemanth Gaddale",
+            "Siva Pamarti"
+          ],
+          "description": "Can enterprises enable advanced analytics on a self-servicing platform without compromising governance? In this session, we’ll share how LevelShift redesigned CITGO’s data platform on Microsoft Fabric..."
+        },
+        {
+          "title": "Enterprise Write-back: Driving Data-Driven Transformation with Power BI",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:30PM–1:50PM",
+          "track": "Power BI",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1124562",
+          "speakers": [
+            "Eric Reyhle"
+          ],
+          "description": "Ready to see how modern planning is being redefined? Acterys showcases how a leading manufacturer moved from fragmented, Excel-based planning to streamlined, data-driven decision-making. Discover how ..."
+        },
+        {
+          "title": "Connect Your Data with Graph: Why Relationships Matter for AI",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Real-Time Intelligence, Fabric IQ, Data Engineering",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1094315",
+          "speakers": [
+            "Igal Amster",
+            "Justin Fine"
+          ],
+          "description": "AI makes poor business decisions when it can't see how things connect - customers to orders, assets to events, signals to root causes. Graph captures these relationships and lets you explore them with..."
+        },
+        {
+          "title": "Fabric Partner Team: Ask Me Anything",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "3:00PM–4:00PM",
+          "track": "No Track",
+          "level": "",
+          "type": "AMA",
+          "url": "https://fabriccon.com/program/agenda?session=1139841",
+          "speakers": [
+            "Fabric Partner Team"
+          ],
+          "description": "Let’s talk partnership! We’re hosting an AMA with the Fabric Partner Success Team, and you’re invited. Whether you’re just getting started or looking to scale your Fabric practice, this is your chance..."
+        },
+        {
+          "title": "DAX 201: CALCULATE, Unfolding the Swiss Army Knife of DAX Functions",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "4:15PM–5:15PM",
+          "track": "Power BI",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1065890",
+          "speakers": [
+            "Michael Hewitt"
+          ],
+          "description": "This session unfolds evaluation context and the logic behind CALCULATE(). Through examples, we'll demystify how row context, filter context, and CALCULATE() work together to produce dynamic calculatio..."
+        },
+        {
+          "title": "Sharing Experiences: Real-Time Intelligence —Customer Stories from the Frontlines of Fabric",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Real-Time Intelligence",
+          "level": "100",
+          "type": "Customer Story",
+          "url": "https://fabriccon.com/program/agenda?session=1095265",
+          "speakers": [
+            "Andrew Joncas",
+            "Tami Mahadevan"
+          ],
+          "description": "In this session, we spotlight how leading organizations are transforming operations and decision-making with Microsoft Fabric’s Real-Time Intelligence capabilities. From connected factories and autono..."
+        },
+        {
+          "title": "From Stalled to Scaled: How Tolmar Built a Trusted Fabric Platform for Agents",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Admin & Governance, OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1126083",
+          "speakers": [
+            "Carl Spitzer",
+            "Jon Steffey"
+          ],
+          "description": "Enterprises are moving quickly toward Copilot and agentic AI, but most struggle to scale beyond pilots because the data foundation isn’t ready. In this session, Adastra and Tolmar share how building a..."
+        },
+        {
+          "title": "Embedding Power Apps in Microsoft Fabric Power BI Reports",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Power Platform, Power BI",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1035028",
+          "speakers": [
+            "Paul Papanek Stork",
+            "Scott Shearer"
+          ],
+          "description": "In this talk we’ll show you how to embed a Power App in a Power BI report in Microsoft Fabric to enable real-time editing and interactivity. See how to update data directly from reports, trigger workf..."
+        },
+        {
+          "title": "From Legacy BI to Insight at Speed: How PGIM Rebuilt Analytics with Microsoft Fabric and Power BI",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Power BI",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1145001",
+          "speakers": [
+            "Pranay Desai",
+            "Eric Kopchinski"
+          ],
+          "description": "When analytics can’t answer “what’s happening right now?” without manual effort, organizations lose time and momentum. PGIM modernized its fragmented BI environment into a unified analytics platform o..."
+        },
+        {
+          "title": "DEI Lunch Session: Adversity Leadership - Leading with Clarity in High-Pressure Environments",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "12:30PM–1:45PM",
+          "track": "Diversity, Equity & Inclusion",
+          "level": "100",
+          "type": "Special Event",
+          "url": "https://fabriccon.com/program/agenda?session=1079624",
+          "speakers": [
+            "Michael Allison"
+          ],
+          "description": "Modern IT teams operate under constant pressure—governance demands, rapid change, rising burnout, and high-stakes decision-making. Teams from all backgrounds, across the spectrum must work together to..."
+        },
+        {
+          "title": "Semantic Link Labs: The Data Detective’s Toolkit",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Power BI, Data Engineering",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1074606",
+          "speakers": [
+            "Jason Romans"
+          ],
+          "description": "Every data detective needs the right toolkit—and Semantic Link Labs delivers. In this demo-heavy session, you’ll see it link Power BI datasets with Python notebooks for deeper diagnostics. Learn to tr..."
+        },
+        {
+          "title": "Vibe Coding a Power BI Embedded Portal - From Zero to Hero in 60 Minutes",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "3:15PM–4:15PM",
+          "track": "Power BI, Developer Experiences",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1080837",
+          "speakers": [
+            "Peer Grønnerup"
+          ],
+          "description": "Power BI Embedded isn’t just for developers. \n\nIn this fast-paced vibe-coding session, we’ll demystify it by building a real custom portal in 60 minutes, using AI to speed things up. \n\nSee how to set ..."
+        }
+      ],
+      "alt_session_count": 24
     },
     {
       "id": "governance-security",
@@ -2672,7 +4787,349 @@
           "description": "Learn how to address a sprawling Fabric environment with ungoverned items across multiple workspaces and capacities. Extend FUAM to gain valuable insights that drive decision-making and backlog priori..."
         }
       ],
-      "session_count": 24
+      "session_count": 24,
+      "alt_sessions": [
+        {
+          "title": "Hands-On Workshop: Data Science & Machine Learning with Microsoft Fabric",
+          "date": "16 mars",
+          "day": "Lundi 16 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Data Science, Microsoft Foundry",
+          "level": "300",
+          "type": "Workshop",
+          "url": "https://fabriccon.com/program/agenda?session=1032680",
+          "speakers": [
+            "Prashant G Bhoyar"
+          ],
+          "description": "Explore Microsoft Fabric’s integrated Data Science experience across ideation, preprocessing, modeling, & deployment. Learn how to ingest and prepare data via OneLake and Lakehouse, leverage Notebooks..."
+        },
+        {
+          "title": "Architecting Data Warehouse Medallion Architecture: From Ingestion to Security at Lightning Speed",
+          "date": "17 mars",
+          "day": "Mardi 17 mars",
+          "time": "9:00AM–5:00PM",
+          "track": "Data Warehousing, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1037519",
+          "speakers": [
+            "Freddie Santos",
+            "Venkata Satya Pradeep Srikakolapu",
+            "Bradley Schacht"
+          ],
+          "description": "Building a high-performing, secure, and future-ready data warehouse requires more than just loading data—it demands a well-structured architecture that balances speed, governance, and scalability. In ..."
+        },
+        {
+          "title": "KEYNOTE: Unifying the Data Estate for the next AI Frontier",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "8:45AM–11:45AM",
+          "track": "No Track",
+          "level": "",
+          "type": "KEYNOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1135450",
+          "speakers": [
+            "Arun Ulag",
+            "Amir Netz",
+            "Shireesh Thota"
+          ],
+          "description": "As organizations race to deploy generative and agentic AI, the biggest challenge they face is not models, it’s their data estate. Join Microsoft engineering leadership to learn how Microsoft’s databas..."
+        },
+        {
+          "title": "How to build a 360-degree view of customers, suppliers, or contacts across OneLake",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "12:40PM–1:00PM",
+          "track": "Power BI, Data Integration",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1079051",
+          "speakers": [
+            "Michael Destein"
+          ],
+          "description": "Learn how to create a 360-degree, contextual view across all your OneLake data in Microsoft Fabric. See how to perform high-quality data matching using Entity Resolution techniques across different en..."
+        },
+        {
+          "title": "Brewing Better Decisions for a Dunkin Donuts Franchisee with Microsoft Fabric",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:10PM–1:30PM",
+          "track": "OneLake, Data Engineering",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1079741",
+          "speakers": [
+            "Dennis Carriere",
+            "Darren Goonawardana"
+          ],
+          "description": "Learn how Bluemont Group transformed Data & AI across 100 Dunkin’ locations by replacing a vendor-controlled data warehouse with a modern, fully owned Microsoft Fabric platform. Learn how Collectiv he..."
+        },
+        {
+          "title": "CORENOTE: Maximizing developer experiences in Microsoft Fabric",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "1:45PM–2:45PM",
+          "track": "Developer Experiences, Admin & Governance",
+          "level": "200",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1075744",
+          "speakers": [
+            "Kim Manis",
+            "Gerd Saurer",
+            "Miles Cole"
+          ],
+          "description": "Discover the latest advancements in Microsoft Fabric that provide a delightful developer experience. Explore capabilities and best practices for job scheduling, proactive and reactive monitoring, trou..."
+        },
+        {
+          "title": "CORENOTE: OneLake, the unified data lake for the era of AI",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "3:05PM–4:05PM",
+          "track": "OneLake",
+          "level": "200",
+          "type": "CORENOTE",
+          "url": "https://fabriccon.com/program/agenda?session=1056101",
+          "speakers": [
+            "Josh Caplan",
+            "Dipti Borkar"
+          ],
+          "description": "Microsoft OneLake eliminates data silos with a single intelligent storage system and provides a unified access point for all your data. This session will show you the latest capabilities coming to One..."
+        },
+        {
+          "title": "Building The Fabric Well-Architected Framework",
+          "date": "18 mars",
+          "day": "Mercredi 18 mars",
+          "time": "4:25PM–5:25PM",
+          "track": "Admin & Governance, Developer Experiences",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1062655",
+          "speakers": [
+            "Joey Dantoni"
+          ],
+          "description": "What is the best way to architect Fabric workspaces? How should your network and security models be built? In this session you will learn about best practices across Fabric for naming, deployment, cap..."
+        },
+        {
+          "title": "What’s new in Fabric capacities and capacity monitoring",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Admin & Governance, Developer Experiences",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1083898",
+          "speakers": [
+            "Pankaj Arora",
+            "Arsalan Yarveisi"
+          ],
+          "description": "Capacities are the foundation for all Microsoft Fabric workloads. This session will provide an overview of what’s new in Fabric capacities including new capacity governance capabilities that help you ..."
+        },
+        {
+          "title": "Transform your data platform into an AI-ready foundation for growth",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "Data Engineering, Data Integration",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081324",
+          "speakers": [
+            "Ravi Gunturu",
+            "Rahul Athalye"
+          ],
+          "description": "Modernize your end-to-end data platform to Fabric and unlock AI/ML enabled potential in workloads, analytics, and collaboration.\nDuring this session, we will focus on agentic AI methods of automation ..."
+        },
+        {
+          "title": "Best Practices for SQL Database Backup Configuration, Immutability, and Ransomware Protection",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Azure SQL, SQLCON, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1089215",
+          "speakers": [
+            "Dinakar Nethi",
+            "Rajesh Setlem"
+          ],
+          "description": "Learn best practices for Azure SQL Database backup configuration and ransomware protection. Explore PITR and LTR strategies, backup immutability, and deletion safeguards to ensure compliance and resil..."
+        },
+        {
+          "title": "Enterprise Row-Level Security: A Blueprint for Scale in Fabric",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Power BI, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081313",
+          "speakers": [
+            "Karl Pover"
+          ],
+          "description": "Managing RLS for 100s of users across multiple semantic models becomes chaos fast. We'll share a proven architecture for complex security—VPs see regions, managers see departments, reps see customers...."
+        },
+        {
+          "title": "How Impetus LeapLogic Automates the Move from Legacy Systems to Microsoft Fabric",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "1:30PM–1:50PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1103985",
+          "speakers": [
+            "Michael Lass"
+          ],
+          "description": "Discover how Impetus LeapLogic helps teams embrace Microsoft Fabric’s unified, AI-driven architecture with speed and confidence. Join Impetus session to see up to 95% automated conversion of SQL, ETL,..."
+        },
+        {
+          "title": "Leveraging Governance inside your Microsoft Fabric Tenant and Workspace",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Admin & Governance, Microsoft Purview",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1078194",
+          "speakers": [
+            "Martin Catherall",
+            "Heidi Hasting"
+          ],
+          "description": "Microsoft Fabric's tenant and workspace settings are powerful governance tools often used in isolation. Discover overlooked Microsoft Fabric settings that collectively create a robust governance solut..."
+        },
+        {
+          "title": "What Microsoft Fabric Looks Like with End-to-End Automation",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "3:20PM–3:40PM",
+          "track": "Data Engineering, Data Warehousing, Data Integration",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1115223",
+          "speakers": [
+            "Endika Pascual"
+          ],
+          "description": "Production-grade Microsoft Fabric implementations require coordinated ingestion, data refinement, warehouse operations, and governance. This session examines how Data Factory pipelines, OneLake Medall..."
+        },
+        {
+          "title": "Microsoft Purview Data Security protections in the Age of AI",
+          "date": "19 mars",
+          "day": "Jeudi 19 mars",
+          "time": "4:15PM–5:15PM",
+          "track": "Microsoft Purview, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1092870",
+          "speakers": [
+            "Darren Portillo",
+            "Anton Fritz"
+          ],
+          "description": "Learn how Microsoft Purview Data Security helps you discover risks and protect data consistently across your entire estate, with a focus on your Fabric estate. This session will introduce newer innova..."
+        },
+        {
+          "title": "Hardening Fabric Warehouse Security",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "8:00AM–9:00AM",
+          "track": "Data Warehousing, Admin & Governance",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1019005",
+          "speakers": [
+            "Freddie Santos",
+            "Sam Debruyn"
+          ],
+          "description": "Learn how to secure Fabric Data Warehouse from the ground up. This session covers end-to-end practices—from secure connectivity and authentication to auditing, monitoring, and governance—highlighting ..."
+        },
+        {
+          "title": "Building an AI-Ready Data Platform: Data Agents, Ontology, and Governance in Microsoft Fabric",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "9:30AM–9:50AM",
+          "track": "OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1120797",
+          "speakers": [
+            "Hukum Chandu Rokkala",
+            "Nir Patel"
+          ],
+          "description": "AI agents and Copilots are only as effective as the data platforms behind them. Learn how to build an AI-ready Frontier Data Platform using Microsoft Fabric, powered by Data Agents, shared ontology, &..."
+        },
+        {
+          "title": "Unifying Data Discovery: A Real-World Implementation of Microsoft Purview Unified Catalog",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "10:10AM–11:10AM",
+          "track": "Microsoft Purview",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1042562",
+          "speakers": [
+            "Anna Gebler"
+          ],
+          "description": "In a data-driven world, managing data assets effectively is vital. This session highlights Lufthansa Group’s successful adoption of Microsoft Purview Unified Catalog as its central data catalog. Atten..."
+        },
+        {
+          "title": "Mastering Fabric Data Engineering Admin and Capacity Management",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "11:30AM–12:30PM",
+          "track": "Data Engineering, Admin & Governance",
+          "level": "400",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1046776",
+          "speakers": [
+            "Santhosh Kumar Ravindran",
+            "Christopher Finlan"
+          ],
+          "description": "Optimize Microsoft Fabric Data Engineering for production. Learn about governance controls for Notebooks, Lakehouses, and Spark Job Definitions. We'll cover administrative roles, capacity management f..."
+        },
+        {
+          "title": "The Hybrid Data Future: When to Persist, When to Let Agents Fetch",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "1:00PM–1:20PM",
+          "track": "Data Engineering, OneLake",
+          "level": "100",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1135928",
+          "speakers": [
+            "Partha Mishra"
+          ],
+          "description": "The \"persist everything\" era of data architecture is ending. Microsoft Fabric is the first platform that lets organizations make a genuine choice: persist strategically in OneLake, access external dat..."
+        },
+        {
+          "title": "Securing all of your OneLake data",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "2:00PM–3:00PM",
+          "track": "Admin & Governance, Data Dev",
+          "level": "200",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081511",
+          "speakers": [
+            "Ginger Grant"
+          ],
+          "description": "Fabric includes multiple layers of security across OneLake. This session breaks down RBAC, sharing permissions, shortcut behaviors, Semantic model Row Level Security and OneLake security and shows how..."
+        },
+        {
+          "title": "Transforming Industrial Operations with Real-time Intelligence and Agentic AI",
+          "date": "20 mars",
+          "day": "Vendredi 20 mars",
+          "time": "3:15PM–4:15PM",
+          "track": "Real-Time Intelligence, OneLake",
+          "level": "300",
+          "type": "Session",
+          "url": "https://fabriccon.com/program/agenda?session=1081139",
+          "speakers": [
+            "Yasaswi Akkaraju",
+            "Stuti Singh"
+          ],
+          "description": "Microsoft Fabric Real-Time Intelligence transforms industrial operations through Real-Time Dashboard, Data Activator, agentic AI, and ART enablement. Organizations shift from reactive firefighting to ..."
+        }
+      ],
+      "alt_session_count": 23
     }
   ],
   "source_note": "Les recommandations ci-dessus sont construites à partir de l’agenda officiel FABCON 2026 et de la structure publique des sessions visibles sur le site."

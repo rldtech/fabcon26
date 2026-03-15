@@ -128,6 +128,29 @@
     });
   }
 
+  /* ---- Path tabs (main / alternate) ---- */
+  document.querySelectorAll('.path-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      var section = this.closest('.profile-section');
+      if (!section) return;
+      var tabName = this.getAttribute('data-tab');
+
+      // Switch tabs
+      section.querySelectorAll('.path-tab').forEach(function (t) {
+        t.classList.remove('path-tab--active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      this.classList.add('path-tab--active');
+      this.setAttribute('aria-selected', 'true');
+
+      // Switch panels
+      section.querySelectorAll('.path-panel').forEach(function (p) {
+        var isTarget = p.getAttribute('data-panel') === tabName;
+        p.classList.toggle('path-panel--active', isTarget);
+      });
+    });
+  });
+
   /* ---- Explorer: search & filter ---- */
   var sessions = window.FABCON_SESSIONS || [];
   var searchInput = document.getElementById('search-input');

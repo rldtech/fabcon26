@@ -138,28 +138,24 @@ by_date = defaultdict(list)
 for s in sessions:
     by_date[s["date"]].append(s)
 
-enriched_profiles = []
+ALL_DAYS = ["2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20"]
 
-for profile in profiles:
-    pid = profile["id"]
-
-    # Score all sessions for this profile
-    scored = [(score_session(s, profile), s) for s in sessions]
-    scored.sort(key=lambda x: -x[0])
-
-    # For each day, greedily pick the best non-overlapping sessions
+def build_path(scored, exclude=None):
+    """Build a non-overlapping schedule from scored sessions.
+    `exclude` is an optional set of session titles to skip."""
+    exclude = exclude or set()
     selected_by_day = defaultdict(list)
 
     # Mon/Tue: full-day workshops — pick the best one per day
     for day in ["2026-03-16", "2026-03-17"]:
-        day_sessions = [(sc, s) for sc, s in scored if s["date"] == day]
+        day_sessions = [(sc, s) for sc, s in scored if s["date"] == day and s["title"] not in exclude]
         day_sessions.sort(key=lambda x: -x[0])
         if day_sessions:
             selected_by_day[day].append(day_sessions[0][1])
 
     # Wed/Thu/Fri: multi-slot days — greedy non-overlapping schedule
     for day in ["2026-03-18", "2026-03-19", "2026-03-20"]:
-        day_sessions = [(sc, s) for sc, s in scored if s["date"] == day and sc > 0]
+        day_sessions = [(sc, s) for sc, s in scored if s["date"] == day and sc > 0 and s["title"] not in exclude]
         day_sessions.sort(key=lambda x: (-x[0], parse_time(x[1]["start_time"])))
 
         chosen = []
@@ -170,7 +166,6 @@ for profile in profiles:
         for sc, s in day_sessions:
             if s in chosen:
                 continue
-            # Check no overlap with already chosen
             conflict = False
             for c in chosen:
                 if overlaps(s, c):
@@ -179,13 +174,12 @@ for profile in profiles:
             if not conflict:
                 chosen.append(s)
 
-        # Sort by start time
         chosen.sort(key=lambda s: parse_time(s["start_time"]))
         selected_by_day[day] = chosen
 
-    # Build the output structure
+    # Build output list
     path_sessions = []
-    for day in ["2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20"]:
+    for day in ALL_DAYS:
         for s in selected_by_day.get(day, []):
             path_sessions.append({
                 "title": s["title"],
@@ -199,6 +193,24 @@ for profile in profiles:
                 "speakers": s.get("speakers", []),
                 "description": s.get("description", "")[:200] + ("..." if len(s.get("description", "")) > 200 else ""),
             })
+    return path_sessions
+
+
+enriched_profiles = []
+
+for profile in profiles:
+    pid = profile["id"]
+
+    # Score all sessions for this profile
+    scored = [(score_session(s, profile), s) for s in sessions]
+    scored.sort(key=lambda x: -x[0])
+
+    # Main path
+    main_sessions = build_path(scored)
+
+    # Alternate path — exclude main path sessions
+    main_titles = {s["title"] for s in main_sessions}
+    alt_sessions = build_path(scored, exclude=main_titles)
 
     enriched_profile = {
         "id": profile["id"],
@@ -207,18 +219,21 @@ for profile in profiles:
         "focus": profile["focus"],
         "why": profile["why"],
         "recommendation": profile["recommendation"],
-        "sessions": path_sessions,
-        "session_count": len(path_sessions),
+        "sessions": main_sessions,
+        "session_count": len(main_sessions),
+        "alt_sessions": alt_sessions,
+        "alt_session_count": len(alt_sessions),
     }
     enriched_profiles.append(enriched_profile)
 
     # Summary
-    days_covered = set()
-    for s in path_sessions:
-        days_covered.add(s["day"])
-    print(f"\n{profile['name']} ({pid}): {len(path_sessions)} sessions across {len(days_covered)} days")
-    for s in path_sessions:
-        print(f"  {s['day']} {s['time']:>14s}  {s['type']:>12s}  {s['title'][:70]}")
+    print(f"\n{profile['name']} ({pid}): {len(main_sessions)} main + {len(alt_sessions)} alt sessions")
+    print("  Main path:")
+    for s in main_sessions:
+        print(f"    {s['day']} {s['time']:>14s}  {s['type']:>12s}  {s['title'][:70]}")
+    print("  Alternate path:")
+    for s in alt_sessions:
+        print(f"    {s['day']} {s['time']:>14s}  {s['type']:>12s}  {s['title'][:70]}")
 
 # Write output
 output = {

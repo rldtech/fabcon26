@@ -9,6 +9,7 @@ with open("enriched_paths.json", "r", encoding="utf-8") as f:
 
 profiles = data["profiles"]
 total_sessions = sum(p["session_count"] for p in profiles)
+total_alt = sum(p.get("alt_session_count", 0) for p in profiles)
 
 # SVG constants
 CAL_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>'
@@ -49,21 +50,26 @@ def build_profile_section(p):
     icon = PROFILE_ICONS.get(pid, "")
     focus_tags = "\n        ".join(f'<span class="focus-tag">{esc(f)}</span>' for f in p["focus"])
 
-    # Group sessions by day
-    by_day = {}
-    for s in p["sessions"]:
-        day = s["day"]
-        if day not in by_day:
-            by_day[day] = []
-        by_day[day].append(s)
+    def build_sessions_grid(sessions_list):
+        by_day = {}
+        for s in sessions_list:
+            day = s["day"]
+            if day not in by_day:
+                by_day[day] = []
+            by_day[day].append(s)
 
-    sessions_html = ""
-    for day in DAYS_ORDER:
-        if day not in by_day:
-            continue
-        sessions_html += f'\n      <div class="day-group">\n        <h3 class="day-group__title">{esc(day)}</h3>\n      </div>\n'
-        for s in by_day[day]:
-            sessions_html += build_session_card(s) + "\n"
+        html = ""
+        for day in DAYS_ORDER:
+            if day not in by_day:
+                continue
+            html += f'\n      <div class="day-group">\n        <h3 class="day-group__title">{esc(day)}</h3>\n      </div>\n'
+            for s in by_day[day]:
+                html += build_session_card(s) + "\n"
+        return html
+
+    main_html = build_sessions_grid(p["sessions"])
+    alt_html = build_sessions_grid(p.get("alt_sessions", []))
+    alt_count = p.get("alt_session_count", 0)
 
     return f'''<section class="profile-section section" id="{pid}" data-profile="{pid}">
   <div class="container">
@@ -89,8 +95,19 @@ def build_profile_section(p):
         {focus_tags}
       </div>
     </div>
-    <div class="sessions-grid">
-{sessions_html}    </div>
+    <div class="path-tabs" role="tablist">
+      <button class="path-tab path-tab--active" role="tab" aria-selected="true" data-tab="main">Parcours principal <span class="path-tab__count">{p["session_count"]}</span></button>
+      <button class="path-tab" role="tab" aria-selected="false" data-tab="alt">Parcours alternatif <span class="path-tab__count">{alt_count}</span></button>
+    </div>
+    <div class="path-panel path-panel--active" data-panel="main">
+      <div class="sessions-grid">
+{main_html}      </div>
+    </div>
+    <div class="path-panel" data-panel="alt">
+      <p class="path-panel__intro">Sessions alternatives, sans chevauchement, couvrant d&#x27;autres angles du même profil.</p>
+      <div class="sessions-grid">
+{alt_html}      </div>
+    </div>
   </div>
 </section>'''
 
@@ -102,7 +119,7 @@ def build_overview_card(p):
         <div class="profile-card__icon">{icon}</div>
         <div class="profile-card__name">{esc(p["name"])}</div>
         <div class="profile-card__tagline">{esc(p["tagline"])}</div>
-        <div class="profile-card__count">{p["session_count"]} sessions &rarr;</div>
+        <div class="profile-card__count">{p["session_count"]} sessions &middot; 2 parcours &rarr;</div>
       </a>'''
 
 overview_cards = "\n".join(build_overview_card(p) for p in profiles)
@@ -172,7 +189,7 @@ full_html = f'''<!DOCTYPE html>
       </div>
       <div class="hero__meta-item">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2zM22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-        {total_sessions} sessions sélectionnées
+        {total_sessions + total_alt} sessions réparties en 2 parcours
       </div>
     </div>
   </div>
