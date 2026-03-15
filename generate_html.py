@@ -142,7 +142,7 @@ full_html = f'''<!DOCTYPE html>
       <div class="header__links">
         <a href="#profiles-overview">Profils</a>
         <a href="#parcours">Parcours</a>
-        <a href="#methodologie">Méthodologie</a>
+        <a href="#explorer">Explorer</a>
         <a href="https://fabriccon.com/program/agenda" target="_blank" rel="noopener noreferrer">Agenda officiel &#x2197;</a>
       </div>
       <button class="theme-toggle" data-theme-toggle aria-label="Changer le thème">
@@ -233,6 +233,74 @@ full_html = f'''<!DOCTYPE html>
 <!-- ========== PROFILE SECTIONS ========== -->
 {profile_sections}
 
+<!-- ========== EXPLORER ========== -->
+<section class="explorer section" id="explorer">
+  <div class="container">
+    <div class="section-header" style="text-align:center; margin-bottom: var(--space-8);">
+      <div class="section-header__label">275 sessions</div>
+      <h2 class="section-header__title">Explorer le programme</h2>
+      <p class="section-header__desc" style="margin-inline:auto;">Recherchez par mot-clé, technologie ou speaker, et filtrez par niveau.</p>
+    </div>
+
+    <div class="explorer__controls">
+      <div class="explorer__search-wrap">
+        <svg class="explorer__search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input type="search" id="search-input" class="explorer__search" placeholder="Spark, Copilot, medallion, Power BI, security..." autocomplete="off">
+        <button id="search-clear" class="explorer__search-clear" aria-label="Effacer" style="display:none;">&times;</button>
+      </div>
+
+      <div class="explorer__filters">
+        <div class="explorer__filter-group">
+          <span class="explorer__filter-label">Niveau</span>
+          <div class="explorer__level-chips">
+            <button class="level-chip level-chip--active" data-level="all">Tous</button>
+            <button class="level-chip" data-level="100">100</button>
+            <button class="level-chip" data-level="200">200</button>
+            <button class="level-chip" data-level="300">300</button>
+            <button class="level-chip" data-level="400">400</button>
+          </div>
+        </div>
+        <div class="explorer__filter-group">
+          <span class="explorer__filter-label">Jour</span>
+          <div class="explorer__day-chips">
+            <button class="day-chip day-chip--active" data-day="all">Tous</button>
+            <button class="day-chip" data-day="2026-03-16">Lun 16</button>
+            <button class="day-chip" data-day="2026-03-17">Mar 17</button>
+            <button class="day-chip" data-day="2026-03-18">Mer 18</button>
+            <button class="day-chip" data-day="2026-03-19">Jeu 19</button>
+            <button class="day-chip" data-day="2026-03-20">Ven 20</button>
+          </div>
+        </div>
+        <div class="explorer__filter-group">
+          <span class="explorer__filter-label">Type</span>
+          <div class="explorer__type-chips">
+            <button class="type-chip type-chip--active" data-type="all">Tous</button>
+            <button class="type-chip" data-type="KEYNOTE">Keynote</button>
+            <button class="type-chip" data-type="CORENOTE">Corenote</button>
+            <button class="type-chip" data-type="Workshop">Workshop</button>
+            <button class="type-chip" data-type="Session">Session</button>
+            <button class="type-chip" data-type="Customer Story">Customer Story</button>
+            <button class="type-chip" data-type="AMA">AMA</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="explorer__status">
+      <span id="search-count">275 sessions</span>
+      <button id="search-reset" class="explorer__reset" style="display:none;">Réinitialiser les filtres</button>
+    </div>
+
+    <div class="sessions-grid" id="search-results">
+      <!-- Populated by JS -->
+    </div>
+    <div id="search-empty" class="explorer__empty" style="display:none;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" width="48" height="48"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <p>Aucune session trouvée. Essayez d&#x27;autres termes ou ajustez les filtres.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ========== METHODOLOGY ========== -->
 <section class="methodology section" id="methodologie">
   <div class="container">
@@ -274,6 +342,7 @@ full_html = f'''<!DOCTYPE html>
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
 </button>
 
+<script src="./sessions.js"></script>
 <script src="./script.js"></script>
 </body>
 </html>'''

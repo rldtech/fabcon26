@@ -122,9 +122,192 @@
       });
     }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-    document.querySelectorAll('.session-card').forEach(function (card) {
+    document.querySelectorAll('.profile-section .session-card').forEach(function (card) {
       card.style.opacity = '0';
       observer.observe(card);
     });
   }
+
+  /* ---- Explorer: search & filter ---- */
+  var sessions = window.FABCON_SESSIONS || [];
+  var searchInput = document.getElementById('search-input');
+  var searchClear = document.getElementById('search-clear');
+  var searchCount = document.getElementById('search-count');
+  var searchResults = document.getElementById('search-results');
+  var searchEmpty = document.getElementById('search-empty');
+  var searchReset = document.getElementById('search-reset');
+
+  var activeLevel = 'all';
+  var activeDay = 'all';
+  var activeType = 'all';
+
+  var DATE_LABELS = {
+    '2026-03-16': 'Lun 16 mars',
+    '2026-03-17': 'Mar 17 mars',
+    '2026-03-18': 'Mer 18 mars',
+    '2026-03-19': 'Jeu 19 mars',
+    '2026-03-20': 'Ven 20 mars'
+  };
+
+  var CAL_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>';
+  var FOLDER_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>';
+  var LINK_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>';
+
+  function escHtml(str) {
+    var d = document.createElement('div');
+    d.textContent = str;
+    return d.innerHTML;
+  }
+
+  function formatTime(t) {
+    return t.replace(/\s+/g, '').replace(/^0/, '');
+  }
+
+  function renderCard(s) {
+    var levelBadge = s.l ? '<span class="session-card__badge session-card__badge--level">' + escHtml(s.l) + '</span>' : '';
+    var trackHtml = (s.tr && s.tr !== 'No Track') ? '<div class="session-card__track">' + FOLDER_SVG + escHtml(s.tr) + '</div>' : '';
+    var dateLabel = DATE_LABELS[s.d] || s.d;
+    var speakers = s.sp && s.sp.length ? '<div class="session-card__speakers">' + escHtml(s.sp.join(', ')) + '</div>' : '';
+    var desc = s.desc ? '<div class="session-card__desc">' + escHtml(s.desc.substring(0, 150)) + (s.desc.length > 150 ? '...' : '') + '</div>' : '';
+
+    return '<article class="session-card">' +
+      '<div class="session-card__meta">' +
+        levelBadge +
+        '<span class="session-card__badge session-card__badge--type">' + escHtml(s.ty) + '</span>' +
+        '<span class="session-card__date">' + CAL_SVG + escHtml(dateLabel) + ' · ' + formatTime(s.s) + '–' + formatTime(s.e) + '</span>' +
+      '</div>' +
+      '<h3 class="session-card__title">' + escHtml(s.t) + '</h3>' +
+      trackHtml +
+      speakers +
+      desc +
+      '<a href="' + escHtml(s.u) + '" target="_blank" rel="noopener noreferrer" class="session-card__link">Voir sur l\'agenda ' + LINK_SVG + '</a>' +
+    '</article>';
+  }
+
+  function filterSessions() {
+    var query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+    var terms = query.split(/\s+/).filter(function(t) { return t.length > 0; });
+
+    var filtered = sessions.filter(function (s) {
+      // Level filter
+      if (activeLevel !== 'all' && s.l !== activeLevel) return false;
+      // Day filter
+      if (activeDay !== 'all' && s.d !== activeDay) return false;
+      // Type filter
+      if (activeType !== 'all' && s.ty !== activeType) return false;
+      // Search terms - all must match
+      if (terms.length === 0) return true;
+      var haystack = (s.t + ' ' + s.tr + ' ' + s.desc + ' ' + (s.sp || []).join(' ') + ' ' + s.tags.join(' ')).toLowerCase();
+      return terms.every(function (term) { return haystack.indexOf(term) !== -1; });
+    });
+
+    // Sort by date then time
+    filtered.sort(function (a, b) {
+      if (a.d !== b.d) return a.d < b.d ? -1 : 1;
+      return a.s < b.s ? -1 : a.s > b.s ? 1 : 0;
+    });
+
+    // Render
+    if (!searchResults) return;
+
+    if (filtered.length === 0) {
+      searchResults.innerHTML = '';
+      if (searchEmpty) searchEmpty.style.display = '';
+    } else {
+      if (searchEmpty) searchEmpty.style.display = 'none';
+      // Group by day
+      var html = '';
+      var currentDay = '';
+      for (var i = 0; i < filtered.length; i++) {
+        var s = filtered[i];
+        var dayLabel = DATE_LABELS[s.d] || s.d;
+        if (s.d !== currentDay) {
+          currentDay = s.d;
+          html += '<div class="day-group"><h3 class="day-group__title">' + escHtml(dayLabel) + '</h3></div>';
+        }
+        html += renderCard(s);
+      }
+      searchResults.innerHTML = html;
+    }
+
+    // Update count
+    if (searchCount) {
+      searchCount.textContent = filtered.length + ' session' + (filtered.length !== 1 ? 's' : '');
+    }
+
+    // Show/hide reset button
+    var hasFilter = query || activeLevel !== 'all' || activeDay !== 'all' || activeType !== 'all';
+    if (searchReset) searchReset.style.display = hasFilter ? '' : 'none';
+    if (searchClear) searchClear.style.display = query ? '' : 'none';
+  }
+
+  // Debounce
+  var searchTimeout;
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(filterSessions, 200);
+    });
+  }
+
+  if (searchClear) {
+    searchClear.addEventListener('click', function () {
+      if (searchInput) searchInput.value = '';
+      filterSessions();
+      searchInput.focus();
+    });
+  }
+
+  if (searchReset) {
+    searchReset.addEventListener('click', function () {
+      if (searchInput) searchInput.value = '';
+      activeLevel = 'all';
+      activeDay = 'all';
+      activeType = 'all';
+      // Reset all chip states
+      document.querySelectorAll('.level-chip').forEach(function (c) {
+        c.classList.toggle('level-chip--active', c.getAttribute('data-level') === 'all');
+      });
+      document.querySelectorAll('.day-chip').forEach(function (c) {
+        c.classList.toggle('day-chip--active', c.getAttribute('data-day') === 'all');
+      });
+      document.querySelectorAll('.type-chip').forEach(function (c) {
+        c.classList.toggle('type-chip--active', c.getAttribute('data-type') === 'all');
+      });
+      filterSessions();
+    });
+  }
+
+  // Level chips
+  document.querySelectorAll('.level-chip').forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      activeLevel = this.getAttribute('data-level');
+      document.querySelectorAll('.level-chip').forEach(function (c) { c.classList.remove('level-chip--active'); });
+      this.classList.add('level-chip--active');
+      filterSessions();
+    });
+  });
+
+  // Day chips
+  document.querySelectorAll('.day-chip').forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      activeDay = this.getAttribute('data-day');
+      document.querySelectorAll('.day-chip').forEach(function (c) { c.classList.remove('day-chip--active'); });
+      this.classList.add('day-chip--active');
+      filterSessions();
+    });
+  });
+
+  // Type chips
+  document.querySelectorAll('.type-chip').forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      activeType = this.getAttribute('data-type');
+      document.querySelectorAll('.type-chip').forEach(function (c) { c.classList.remove('type-chip--active'); });
+      this.classList.add('type-chip--active');
+      filterSessions();
+    });
+  });
+
+  // Initial render
+  filterSessions();
 })();
