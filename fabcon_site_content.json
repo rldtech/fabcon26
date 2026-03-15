@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Parcours FABCON 2026 par profil",
+    "subtitle": "Guide interne pour choisir ses sessions selon son métier",
+    "event_name": "Microsoft Fabric Community Conference 2026",
+    "event_url": "https://fabriccon.com/",
+    "agenda_url": "https://fabriccon.com/program/agenda",
+    "dates": "16–20 mars 2026",
+    "location": "Atlanta",
+    "summary": "Sélection de parcours recommandés à partir de l’agenda officiel FABCON 2026, pour aider chaque collègue à prioriser ses sessions selon son profil et ses objectifs."
+  },
+  "stats": {
+    "session_count": 275,
+    "track_count": 24,
+    "levels": [
+      "100 - Business Level",
+      "200 - Feature Oriented",
+      "300 - Technical",
+      "400 - Deep Technical"
+    ],
+    "days": [
+      "Lundi 16 mars",
+      "Mardi 17 mars",
+      "Mercredi 18 mars",
+      "Jeudi 19 mars",
+      "Vendredi 20 mars"
+    ]
+  },
+  "profiles": [
+    {
+      "id": "data-engineer",
+      "name": "Data Engineer",
+      "tagline": "Pipelines, ingestion, Spark, Lakehouse, temps réel",
+      "focus": ["Data Engineering", "Data Integration", "OneLake", "Real-Time Intelligence", "Data Warehousing", "SQL in Fabric"],
+      "why": "À privilégier si tu construis ou industrialises les chaînes de données, les patterns medallion, l’ingestion, l’orchestration, SQL/Spark et le temps réel.",
+      "recommendation": "Choisir un gros workshop le lundi, puis compléter avec des sessions ciblées sur l’industrialisation, l’automatisation et la transition SQL vers Fabric/Spark.",
+      "sessions": [
+        {"title":"Design a Well-Architected Fabric Solution: A Medallion First Approach","date":"16 mars","time":"09:00–17:00","track":"Data Engineering, Data Integration","level":"200","type":"Workshop / lab","url":"https://fabriccon.com/program/agenda?session=1047353","reason":"Excellent socle sur Bronze/Silver/Gold, Lakehouse, Delta, Parquet, Git et monitoring."},
+        {"title":"Real-Time Intelligence Masterclass with Microsoft Fabric","date":"16 mars","time":"09:00–17:00","track":"Real-Time Intelligence","level":"300","type":"Masterclass","url":"https://fabriccon.com/program/agenda?session=1040669","reason":"À choisir si l’enjeu principal est le streaming, CDC, Eventstream, Eventhouse et les dashboards temps réel."},
+        {"title":"Materialized Lake Views: Simplifying Your Medallion ETL","date":"18 mars","time":"15:05–16:05","track":"Data Engineering, Data Warehousing","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1081588","reason":"Très bon complément sur les patterns ETL autour du medallion."},
+        {"title":"A Guide to Making the Most of your SQL Skills Using Microsoft Fabric","date":"19 mars","time":"11:30–12:30","track":"SQL in Fabric, SQLCON, Data Warehousing","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1076964","reason":"Pertinent pour capitaliser sur les compétences SQL existantes sans tout réécrire."},
+        {"title":"Adapting to Fabric Spark: A SQL Server Practitioner’s Path Forward","date":"19 mars","time":"11:30–12:30","track":"Data Engineering, Data Warehousing","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1080695","reason":"Utile pour la bascule progressive d’un monde SQL Server vers Fabric Spark."},
+        {"title":"What Microsoft Fabric Looks Like with End-to-End Automation","date":"19 mars","time":"15:20–15:40","track":"Data Engineering, Data Warehousing, Data Integration","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1115223","reason":"Retour condensé sur l’automatisation bout en bout dans Fabric."}
+      ]
+    },
+    {
+      "id": "data-architect",
+      "name": "Data Architect",
+      "tagline": "Architecture cible, modélisation, plateforme, gouvernance",
+      "focus": ["Data Warehousing", "Data Engineering", "Data Integration", "OneLake", "Admin & Governance", "Microsoft Purview", "Azure SQL"],
+      "why": "À privilégier si tu définis l’architecture cible, les modèles de données, l’urbanisation, les patterns de migration et les garde-fous de gouvernance.",
+      "recommendation": "Mixer une journée très architecture/modélisation et une autre orientée OneLake, sécurité, intégration du patrimoine existant et fondations AI-ready.",
+      "sessions": [
+        {"title":"Modern Data Warehousing in Microsoft Fabric","date":"16 mars","time":"09:00–17:00","track":"Data Warehousing","level":"300","type":"Session longue","url":"https://fabriccon.com/program/agenda?session=1020569","reason":"Très bon fond sur modélisation dimensionnelle, ingestion, medallion, CI/CD, monitoring et migration."},
+        {"title":"Architecting Data Warehouse Medallion Architecture: From Ingestion to Security at Lightning Speed","date":"17 mars","time":"09:00–17:00","track":"Data Warehousing, Admin & Governance","level":"300","type":"Session longue","url":"https://fabriccon.com/program/agenda?session=1037519","reason":"Très aligné avec un rôle d’architecte data qui doit penser flux, stockage et sécurité ensemble."},
+        {"title":"Microsoft Fabric Security: Best Practices for Network, Data and Governance","date":"19 mars","time":"16:15–17:15","track":"Admin & Governance, Microsoft Purview","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1087896","reason":"Complément important pour les principes d’architecture enterprise."},
+        {"title":"Trusted Contextual Data Foundation for reliable AI outcomes","date":"20 mars","time":"08:00–09:00","track":"Microsoft Foundry, Data Engineering, Data Science, Data Warehousing, OneLake, Admin & Governance","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1129744","reason":"Session intéressante sur la fondation de données de confiance pour l’IA."},
+        {"title":"Linking Enterprise Data Estates to Fabric for OneLake & AI: A Real-World Case Study Featuring Fiserv","date":"20 mars","time":"13:00–13:20","track":"OneLake, Admin & Governance","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1131879","reason":"Bon cas concret de connexion entre existant enterprise, OneLake et IA."},
+        {"title":"Building a Zero-Copy Enterprise Data Platform for CITGO","date":"19 mars","time":"13:00–13:20","track":"Data Engineering, Admin & Governance","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1111226","reason":"Retour d’expérience utile sur les patterns de plateforme unifiée."}
+      ]
+    },
+    {
+      "id": "cloud-architect",
+      "name": "Cloud Architect",
+      "tagline": "Sécurité, gouvernance, CI/CD, operating model, plateforme",
+      "focus": ["Admin & Governance", "Microsoft Purview", "OneLake", "Developer Experiences", "Azure SQL", "Real-Time Intelligence"],
+      "why": "À privilégier si tu regardes Fabric comme une brique de plateforme d’entreprise avec sécurité, gouvernance, opérations, industrialisation et intégration cloud.",
+      "recommendation": "Commencer par les sujets de sécurité/gouvernance, puis prendre les sessions sur le well-architected, le CI/CD et l’operating model à l’échelle.",
+      "sessions": [
+        {"title":"Hands-On Fabric Security: Protecting Data, Access, and Compliance","date":"16 mars","time":"09:00–17:00","track":"Admin & Governance, Microsoft Purview","level":"300","type":"Workshop","url":"https://fabriccon.com/program/agenda?session=1046169","reason":"Très bon angle sur sécurité réseau, accès OneLake, conformité et Purview."},
+        {"title":"Building The Fabric Well-Architected Framework","date":"18 mars","time":"16:25–17:25","track":"Admin & Governance, Developer Experiences","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1062655","reason":"Probablement la session la plus proche d’un cadre d’architecture cloud global."},
+        {"title":"AI-Powered CI/CD for Microsoft Fabric: Building Enterprise-Grade Pipelines with GitHub Copilot","date":"19 mars","time":"08:00–09:00","track":"Developer Experiences, Data Engineering","level":"400","type":"Session","url":"https://fabriccon.com/program/agenda?session=1073128","reason":"Très pertinent pour les architectes orientés GitHub, automatisation et plateforme."},
+        {"title":"Enterprise security in OneLake: fine-grained access control with OneLake security","date":"19 mars","time":"14:00–15:00","track":"OneLake, Admin & Governance","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1063657","reason":"Important pour la conception des modèles d’accès et de gouvernance."},
+        {"title":"Microsoft Fabric Security: Best Practices for Network, Data and Governance","date":"19 mars","time":"16:15–17:15","track":"Admin & Governance, Microsoft Purview","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1087896","reason":"Complète bien la vision sécurité de plateforme."},
+        {"title":"Herding Fabric Cats: Administration and Governance Guidance","date":"20 mars","time":"14:00–15:00","track":"Admin & Governance, OneLake","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1081460","reason":"Orienté administration et gouvernance à l’échelle."}
+      ]
+    },
+    {
+      "id": "bi-analytics",
+      "name": "BI / Analytics Lead",
+      "tagline": "Power BI, semantic models, adoption, analytics augmentée",
+      "focus": ["Power BI", "Fabric IQ", "Power Platform", "Data Warehousing"],
+      "why": "À privilégier si tu pilotes la couche analytique, les modèles sémantiques, l’expérience utilisateur BI, l’adoption et les usages Copilot/agents côté analytics.",
+      "recommendation": "Panacher roadmap Power BI, retour d’expérience, modèles sémantiques et analytics assistée par IA.",
+      "sessions": [
+        {"title":"CORENOTE: Power BI Roadmap: Strategy, Vision, and Demos","date":"18 mars","time":"15:05–16:05","track":"Power BI","level":"200","type":"Corenote","url":"https://fabriccon.com/program/agenda?session=1060841","reason":"Incontournable pour la vision produit et les annonces."},
+        {"title":"Planning & Writeback on Top of Semantic Models","date":"18 mars","time":"13:45–14:45","track":"Power BI, Data Warehousing","level":"100","type":"Session","url":"https://fabriccon.com/program/agenda?session=1081289","reason":"Intéressant pour les usages de planification et de writeback sur modèles sémantiques."},
+        {"title":"From Legacy BI to Insight at Speed: How PGIM Rebuilt Analytics with Microsoft Fabric and Power BI","date":"20 mars","time":"11:30–12:30","track":"Power BI","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1145001","reason":"Retour concret de modernisation analytics."},
+        {"title":"Reporting with action: Visualizations with translytical task flows in Power BI and Fabric","date":"20 mars","time":"11:30–12:30","track":"Power BI, SQL in Fabric","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1075109","reason":"Bien pour lier reporting et action métier."},
+        {"title":"Embedding Power Apps in Microsoft Fabric Power BI Reports","date":"20 mars","time":"10:10–11:10","track":"Power Platform, Power BI","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1035028","reason":"Montre comment rapprocher analytics et applicatif."},
+        {"title":"Build Smarter Analytics Assistants with Fabric Data Agents and Copilot Studio","date":"20 mars","time":"14:00–15:00","track":"Data Science, Power BI","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1081577","reason":"Très utile pour préparer des usages conversationnels autour de la BI."}
+      ]
+    },
+    {
+      "id": "data-science-ai",
+      "name": "Data Scientist / AI Engineer",
+      "tagline": "ML, notebooks, agents, IQ, IA appliquée",
+      "focus": ["Data Science", "Microsoft Foundry", "Fabric IQ", "Real-Time Intelligence"],
+      "why": "À privilégier si tu travailles sur notebooks, MLOps, agents, copilots, contextualisation de la donnée et cas d’usage IA en production.",
+      "recommendation": "Choisir entre une journée ML complète ou une journée agents, puis compléter avec les sessions sur IQ, Foundry et les cas d’usage temps réel + IA.",
+      "sessions": [
+        {"title":"Hands-On Workshop: Data Science & Machine Learning with Microsoft Fabric","date":"16 mars","time":"09:00–17:00","track":"Data Science, Microsoft Foundry","level":"300","type":"Workshop","url":"https://fabriccon.com/program/agenda?session=1032680","reason":"La session la plus structurante sur notebooks, Spark, SynapseML, MLflow et déploiement."},
+        {"title":"A practical guide to building and deploying Fabric Data Agents for deeper insights","date":"16 mars","time":"09:00–17:00","track":"Data Science","level":"200","type":"Workshop","url":"https://fabriccon.com/program/agenda?session=1042362","reason":"À choisir si l’axe principal est l’agentic AI plutôt que le ML classique."},
+        {"title":"Microsoft Fabric AI: Copilots, Data Agents & Real‑World Extensions","date":"19 mars","time":"11:30–12:30","track":"Data Science, Microsoft Foundry","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1020444","reason":"Bonne synthèse appliquée sur les briques IA de Fabric."},
+        {"title":"Fabric IQ + Foundry IQ: Unifying data and knowledge for agentic AI","date":"19 mars","time":"14:00–15:00","track":"Microsoft Foundry, Fabric IQ, Real-Time Intelligence","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1089904","reason":"Très utile pour comprendre la couche de connaissance derrière les agents."},
+        {"title":"Build Your First Digital Employee: A Guide to Operations Agent in Fabric","date":"19 mars","time":"11:30–12:30","track":"Real-Time Intelligence, Fabric IQ, Microsoft Foundry","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1080563","reason":"Bon angle si tu regardes les agents opérationnels."},
+        {"title":"Smart Routing: Real-Time Transport Optimization with Fabric","date":"20 mars","time":"11:30–12:30","track":"Real-Time Intelligence, Data Science","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1081363","reason":"Exemple concret croisant IA et données temps réel."}
+      ]
+    },
+    {
+      "id": "sales-manager",
+      "name": "Sales / Manager",
+      "tagline": "Vision, valeur métier, adoption, cas d’usage, roadmap",
+      "focus": ["Power BI", "Fabric IQ", "Keynotes", "Customer Stories", "Niveaux 100–200"],
+      "why": "À privilégier si l’objectif est de comprendre la valeur business, la roadmap, les démonstrations, les retours clients et les scénarios d’adoption.",
+      "recommendation": "Favoriser les keynotes, les customer stories et les sessions expliquant quand utiliser Copilot, Data Agents et les expériences orientées métier.",
+      "sessions": [
+        {"title":"Getting Started with Microsoft Fabric and Power BI: A Hands-On Workshop","date":"16 mars","time":"09:00–17:00","track":"Data Engineering, Power BI","level":"100","type":"Workshop","url":"https://fabriccon.com/program/agenda?session=1042946","reason":"Bon point d’entrée pour comprendre l’ensemble de la chaîne de valeur Fabric + Power BI."},
+        {"title":"CORENOTE: Power BI Roadmap: Strategy, Vision, and Demos","date":"18 mars","time":"15:05–16:05","track":"Power BI","level":"200","type":"Corenote","url":"https://fabriccon.com/program/agenda?session=1060841","reason":"À prendre pour la vision et les démonstrations clés."},
+        {"title":"AI Answers, Done Right: When to use Power BI Copilot vs. Fabric Data Agents","date":"19 mars","time":"08:00–09:00","track":"Power BI","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1082152","reason":"Très utile pour comprendre le bon positionnement des usages IA métier."},
+        {"title":"Sharing Experiences: Unlocking More Value from Power BI with Microsoft Fabric","date":"19 mars","time":"14:00–15:00","track":"Power BI","level":"100","type":"Customer Story","url":"https://fabriccon.com/program/agenda?session=1095269","reason":"Retour d’expérience orienté valeur et adoption."},
+        {"title":"Making AI Agents Smarter with Fabric IQ and Foundry IQ","date":"20 mars","time":"10:10–11:10","track":"Microsoft Foundry, Fabric IQ, Power BI","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1081123","reason":"Aide à comprendre la promesse business de l’IA contextualisée."},
+        {"title":"Delivering Insights Where Your Users Work","date":"20 mars","time":"15:15–16:15","track":"Power BI","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1083357","reason":"Important pour l’adoption et la diffusion des insights dans les outils quotidiens."}
+      ]
+    },
+    {
+      "id": "governance-security",
+      "name": "Governance / Security",
+      "tagline": "Purview, contrôle d’accès, protection, conformité",
+      "focus": ["Admin & Governance", "Microsoft Purview", "OneLake"],
+      "why": "À privilégier si tu portes les sujets de sécurité, gouvernance data, classification, catalogue, contrôle d’accès et conformité dans Fabric.",
+      "recommendation": "Construire le parcours autour de Purview et OneLake, avec un mix entre fondations, sécurité d’accès et protection de la donnée à l’ère de l’IA.",
+      "sessions": [
+        {"title":"Hands-On Fabric Security: Protecting Data, Access, and Compliance","date":"16 mars","time":"09:00–17:00","track":"Admin & Governance, Microsoft Purview","level":"300","type":"Workshop","url":"https://fabriccon.com/program/agenda?session=1046169","reason":"La meilleure base sécurité/gouvernance visible dans l’agenda."},
+        {"title":"Building your data catalog with Microsoft Purview","date":"17 mars","time":"09:00–17:00","track":"Admin & Governance, Microsoft Purview","level":"300","type":"Session longue","url":"https://fabriccon.com/program/agenda?session=1046508","reason":"Très utile pour la dimension catalogue et gouvernance des données."},
+        {"title":"Securing Your Data Estate with Purview","date":"18 mars","time":"15:05–16:05","track":"Microsoft Purview, Admin & Governance","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1081288","reason":"Bon cadrage sur la protection du data estate."},
+        {"title":"Guardians of the lake: securing your data with OneLake","date":"18 mars","time":"13:45–14:45","track":"OneLake, Admin & Governance","level":"200","type":"Session","url":"https://fabriccon.com/program/agenda?session=1052966","reason":"Centrée sur OneLake et ses enjeux de protection."},
+        {"title":"Enterprise security in OneLake: fine-grained access control with OneLake security","date":"19 mars","time":"14:00–15:00","track":"OneLake, Admin & Governance","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1063657","reason":"Très intéressante pour le contrôle d’accès fin."},
+        {"title":"Microsoft Purview Data Security protections in the Age of AI","date":"19 mars","time":"16:15–17:15","track":"Microsoft Purview, Admin & Governance","level":"300","type":"Session","url":"https://fabriccon.com/program/agenda?session=1092870","reason":"À prendre pour le lien entre sécurité de la donnée et usages IA."}
+      ]
+    }
+  ],
+  "source_note": "Les recommandations ci-dessus sont construites à partir de l’agenda officiel FABCON 2026 et de la structure publique des sessions visibles sur le site."
+}
