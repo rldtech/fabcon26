@@ -32,14 +32,15 @@ def esc(text):
     return html_mod.escape(text) if text else ""
 
 def build_session_card(s):
+    level_html = f'<span class="session-card__badge session-card__badge--level">{esc(s["level"])}</span>\n          ' if s.get("level") else ""
+    track_html = f'<div class="session-card__track">{FOLDER_SVG}{esc(s["track"])}</div>' if s.get("track") and s["track"] != "No Track" else ""
     return f'''      <article class="session-card">
         <div class="session-card__meta">
-          <span class="session-card__badge session-card__badge--level">{esc(s["level"])}</span>
-          <span class="session-card__badge session-card__badge--type">{esc(s["type"])}</span>
+          {level_html}<span class="session-card__badge session-card__badge--type">{esc(s["type"])}</span>
           <span class="session-card__date">{CAL_SVG}{esc(s["date"])} · {esc(s["time"])}</span>
         </div>
         <h3 class="session-card__title">{esc(s["title"])}</h3>
-        <div class="session-card__track">{FOLDER_SVG}{esc(s["track"])}</div>
+        {track_html}
         <a href="{esc(s["url"])}" target="_blank" rel="noopener noreferrer" class="session-card__link">Voir sur l&#x27;agenda {LINK_SVG}</a>
       </article>'''
 
